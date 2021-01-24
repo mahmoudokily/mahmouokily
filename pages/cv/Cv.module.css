@@ -1,0 +1,97 @@
+.container{
+    background-color: #c1c1c1;
+    min-height: 100vh;
+    position: relative;
+    height: auto;
+    justify-content: center;
+    font-family: 'Josefin Slab', serif;
+
+
+}
+.cv{
+    margin:auto auto;
+    background-color: white;
+    max-width: 842px;
+    box-shadow: 2px 2px 1px #606060;
+    min-height: 1091px;
+
+
+
+
+}
+
+.grid_3{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    align-items: flex-start;
+}
+.img{
+    padding: 10px;
+
+}
+.img img{
+    width: 100%;
+}
+.name{
+    font-size: 25px;
+    padding-top: 10px;
+    color: brown;
+    font-weight: 500;
+
+}
+.job{
+    padding-top: 5px;
+    color: #737373;
+
+ }
+.contact{
+    color: brown;
+    padding-top: 5px;
+    text-align: left;
+
+}
+.contact ul{
+    list-style: none;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+}
+.skills_body{
+    grid-column: 2/3;
+}
+.parent{
+    font-size: 20px;
+}
+.date{
+    text-align: right;
+    padding: 0px 20px;
+
+
+
+}
+
+
+
+.sec_head{
+    color: brown;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.gris_2{
+  display: grid;
+    grid-template-columns: 2fr 5fr;
+
+}
+.skill_item{
+    max-width: 90%;
+}
+.item{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-column: 1/2;
+}

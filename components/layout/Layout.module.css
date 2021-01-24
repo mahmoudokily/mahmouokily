@@ -1,0 +1,56 @@
+.grid_2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+}
+.grid_left{
+    min-height: 100vh;
+    background-color: brown;
+    min-width: 300px;
+    position: relative;
+
+}
+.grid_left::before {
+    opacity: .5;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url("https://images.pexels.com/photos/127160/pexels-photo-127160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") fixed no-repeat left ;
+}
+
+@media screen and (min-width: 720px){
+.mobile_nav{
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 720px){
+    .grid_2{
+        grid-template-columns: 1fr;
+    }
+    .grid_left{
+        display: none;
+    }
+    .mobile_nav{
+        display: block;
+    }
+
+}
+@media screen and (max-width: 556px){
+    .grid_2{
+        grid-template-columns: 1fr;
+    }
+    .grid_left{
+        display: none;
+    }
+    .mobile_nav{
+        display: block;
+    }
+
+}

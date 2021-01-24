@@ -1,0 +1,30 @@
+.container{
+    padding: 20px;
+}
+.head{
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.p{
+    color: #4a4a4f;
+}
+.table{
+    background-color: #eee;
+    padding: 30px 0px;
+    text-align: left;
+    color:#4a4a4f;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.ul_child{
+    display: flex;
+}
+.ul_child li{
+    padding: 10px;
+    text-align: left;
+    min-width: 100px;
+}
+.ul_child li:nth-child(2) {
+    color: brown;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+
+
+html,
+body {
+  font-family: 'Josefin Slab', serif;
+color: #4a4a4f!important;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: inherit;
+}
+div{
+  box-sizing: border-box;
+
+}
+
+
+img{
+  object-fit: contain;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Josefin Slab', serif;
+
+}
+button{
+  outline: none!important;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul{
+
+padding: 0px;
+  list-style: none;
+  margin: 0;
+}

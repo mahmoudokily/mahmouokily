@@ -1,0 +1,95 @@
+.container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  text-align: left;
+  color: aliceblue;
+  background: url("https://images.pexels.com/photos/127160/pexels-photo-127160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center ;
+
+}
+
+.p{
+  color: #737373;
+}
+
+
+.fixed{
+  display: flex;
+  padding-top: 30px;
+
+
+  flex-direction: column;
+
+}
+
+
+
+
+
+.name{
+  font-size: 40px;
+  text-align: left;
+}
+.job_title{
+  font-size: 20px;
+}
+.codeLang{
+  padding: 10px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.home_btns{
+  display: flex;
+  text-align: left;
+  padding: 20px;
+  justify-content: left;
+  align-items: flex-start;
+}
+.home_btns button{
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: brown;
+  color: aliceblue;
+  border: 1px solid #eee;
+  opacity: .9;
+  cursor: pointer;
+  transition: all 300ms;
+
+}
+.home_btns button:hover{
+  opacity: 1;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 920px){
+  .home_btns{
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
