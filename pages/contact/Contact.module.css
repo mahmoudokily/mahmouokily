@@ -1,15 +1,22 @@
 .container{
     padding: 20px;
-    background-color: #c1c1c1;
     min-height: 100vh;
 }
+
 .head{
-    font-size: 25px;
-    padding-bottom: 10px;
-    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-bottom: 1px solid #eee;
+    max-width: 60%;
+    margin: auto;
 }
 .p{
-    color: #4a4a4f;
+    color: brown;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 20px 0px;
+    text-align: center;
 
 }
 .table{
@@ -30,6 +37,7 @@
 .ul_child li:nth-child(2) {
     color: brown;
 }
+
 @media screen and (max-width: 556px){
     .container{
         min-height: calc(100vh - 80px);

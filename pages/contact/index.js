@@ -54,8 +54,8 @@ function Contact() {
                         </li>
 
                     </ul>
-
                 </div>
+
             </motion.div>
         </Layout>
 

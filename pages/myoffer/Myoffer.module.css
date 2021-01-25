@@ -1,0 +1,74 @@
+.container{
+
+}
+.head{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-bottom: 1px solid #eee;
+    max-width: 60%;
+    margin: auto;
+}
+.item{
+    max-width: 80%;
+    padding: 20px;
+}
+.h1{
+    color: brown;
+    padding: 10px 0px ;
+    font-size: 20px;
+}
+.email{
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.email .p{
+    font-size: 22px;
+    padding: 20px;
+}
+.email button{
+    width: 200px;
+    margin: auto;
+    padding: 0;
+    height: 40px;
+    background-color: brown;
+    border: 1px solid #eee;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    opacity: .8;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+
+}
+.email button:hover{
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+    font-size: 20px;
+}
+.email button:hover .icon2{
+    opacity: 1;
+    width: 60px;
+}
+.email button a{
+    flex: 2;
+}
+
+.icon2{
+    display: flex;
+    font-size: 24px;
+    background-color: #737373;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    width: 0;
+    transition: all 500ms ease-in-out;
+
+}
