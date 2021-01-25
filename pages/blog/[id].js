@@ -5,8 +5,20 @@ import {IoArrowBackOutline, IoArrowForwardSharp} from 'react-icons/io5'
 import {GrLinkNext} from 'react-icons/gr'
 import {useEffect } from 'react'
 import Link from "next/link";
+import {motion} from "framer-motion";
+import Layout from "../../components/layout/Layout";
+import head from "next";
 
 function Artical({id}) {
+    useEffect(()=> {
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    })
 
     const currentartical = blogs.filter(i => i.id === id)[0]
    function incr(){
@@ -24,7 +36,20 @@ function Artical({id}) {
        return num;
    }
     return (
-        <div className={styles.container}>
+        <motion.div className={styles.container}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1  }}
+                    transition={{ delay: .2 }}>
+            <head>
+                <title>{currentartical.title}</title>
+                <title>Your Website Title</title>
+                <meta property="og:url"           content={"http://www.mahmoudokily.com/blog/" + currentartical.id} />
+                <meta property="og:type"          content="website" />
+                <meta property="og:title"         content={currentartical.title} />
+                <meta property="og:description"   content={currentartical.desc} />
+                <meta property="og:image"         content={currentartical.img} />
+            </head>
+
             <div className={styles.article}>
                 <div className={styles.head}>
                     <div className={styles.title}>
@@ -103,6 +128,12 @@ function Artical({id}) {
                         </div>
                     </a>
 
+                    <div className={styles.facebook}
+                         data-href="http://www.mahmoudokily.me/blog/1"
+                         data-layout="button_count">
+                    </div>
+
+
                 </div>
 
 
@@ -159,7 +190,7 @@ function Artical({id}) {
 
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 Artical.getInitialProps = ({ query: { id } }) => {

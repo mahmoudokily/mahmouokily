@@ -5,6 +5,7 @@ import {SiGmail} from "react-icons/si";
 import {motion} from "framer-motion";
 import {blogs} from '../../components/blogs'
 import {useEffect } from 'react'
+import Layout from "../../components/layout/Layout";
 
 function Blog() {
         const Article = (blogs) => {
@@ -38,7 +39,10 @@ function Blog() {
 
 
     return (
-        <div className={styles.container}>
+        <motion.div className={styles.container}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1  }}
+                    transition={{ delay: .2 }}>
             <div className={styles.header}>
                 <div className={styles.logo}>
                     <img src="/me2.jpg" alt=""/>
@@ -91,7 +95,7 @@ function Blog() {
             {/*    </div>*/}
 
             {/*</div>*/}
-        </div>
+        </motion.div>
     )
 
 }

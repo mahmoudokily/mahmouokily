@@ -3,7 +3,7 @@ export  const blogs = [
     id : "1",
     title : "WHY IS IT IMPORTANT FOR YOU TO LEARN NEXT.JS AS A REACT DEVELOPER?",
     img :"https://miro.medium.com/max/5468/1*VEXMXDkq01cyq8GTpdcRLA.png",
-    date :"21 jan 2021",
+    date :"20 dec 2020",
     desc :"  Next.js as a React developer: We should all agree on one thing, React is one of the most common solutions to create interactive web applications out there – small as well as large. It’s used by so many startups and businesses that to have these days is a very valuable skillAlthough We should all agree on one thing, React is one of the most common solutions to create intyou have zero or little knowledge of Next.js, you’ve used React in the past, and you’re looking forward or plunging further into the React ecosystem, particularly server-side rendering.",
     h1:"What is a React.js developer?",
     p1:"React.js Developers prototype and build user interface elements for JavaScript-based web and mobile applications leveraging the React open-source software ecosystem. Such professional front-end developers are engaged in all phases of interface system design, from creation through to final testing.\n" +
