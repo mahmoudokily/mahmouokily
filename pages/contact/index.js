@@ -14,8 +14,14 @@ function Contact() {
                     <ul className={styles.ul_parent}>
                         <li>
                             <ul className={ styles.ul_child}>
+                                <li>    Website :</li>
+                                <li><a href="http://www.mahmoudokily.me"> Mahmoud okily@internet</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul className={ styles.ul_child}>
                                 <li>    E-mail  :</li>
-                                <li><a href="mailto:okilymahmoud48@gmail.com"> Okily mahmoud@gmail</a></li>
+                                <li><a href="mailto:okilymahmoud48@gmail.com"> Mahmoud okily @gmail</a></li>
                             </ul>
                         </li>
                         <li>

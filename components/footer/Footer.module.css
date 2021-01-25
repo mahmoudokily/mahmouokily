@@ -1,0 +1,17 @@
+.container {
+    height: 40px;
+    background-color: brown;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-transform: capitalize;
+
+}
+@media screen  and (max-width: 720px){
+    .container{
+        display: flex;
+    }
+
+}

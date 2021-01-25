@@ -1,5 +1,6 @@
 .container{
     padding: 20px;
+    background-color: #c1c1c1;
 }
 .head{
     font-size: 25px;
@@ -8,10 +9,10 @@
 }
 .p{
     color: #4a4a4f;
+
 }
 .table{
-    background-color: #eee;
-    padding: 30px 0px;
+
     text-align: left;
     color:#4a4a4f;
     font-size: 18px;
@@ -27,4 +28,11 @@
 }
 .ul_child li:nth-child(2) {
     color: brown;
+}
+@media screen and (max-width: 556px){
+    .container{
+        min-height: calc(100vh - 80px);
+
+    }
+
 }

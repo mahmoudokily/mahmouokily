@@ -1,6 +1,6 @@
 import styles from "../P.module.css";
 
-import {AiOutlineFolderView} from "react-icons/ai";
+import {FiExternalLink} from 'react-icons/fi'
 
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
@@ -38,7 +38,7 @@ function Yalpcamp() {
                     <button>
                         <Link href='https://yalpcamps.herokuapp.com/'><a className={styles.a}>
                             <div className={styles.icon}>
-                                <AiOutlineFolderView/>
+                                <FiExternalLink/>
                             </div>
                             View online
                         </a></Link>

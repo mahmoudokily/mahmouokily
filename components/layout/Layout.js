@@ -4,6 +4,7 @@ import {AiFillFacebook, AiFillGithub, AiFillTwitterSquare} from "react-icons/ai"
 import {SiGmail} from "react-icons/si";
 import Header from '../header/Header'
 import Nav from "../mobile/Nav";
+import Footer from "../footer/footer";
 
 function Layout ({children, title}){
     return(
@@ -15,6 +16,7 @@ function Layout ({children, title}){
                 <Nav/>
             </div>
             <div>   {children}</div>
+            <Footer/>
         </div>
 
     )

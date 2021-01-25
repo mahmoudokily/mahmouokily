@@ -1,7 +1,7 @@
 import styles from './Portfolio.module.css';
 import Link from "next/link";
 import Layout from "../../components/layout/Layout";
-
+import {AiOutlineFolderView} from "react-icons/ai";
 function Portfolio() {
     return(
         <Layout >
@@ -52,6 +52,9 @@ function Portfolio() {
                                         </ul>
                                         <div className={styles.more}>
                                             <button>
+                                                <div className={styles.icon}>
+                                                    <AiOutlineFolderView/>
+                                                </div>
                                                 <Link href='/portfolio/yalpcamp'>More details</Link>
                                             </button>
                                         </div>
@@ -103,6 +106,9 @@ function Portfolio() {
                                         </ul>
                                         <div className={styles.more}>
                                             <button>
+                                                <div className={styles.icon}>
+                                                    <AiOutlineFolderView/>
+                                                </div>
                                                 <Link href='/portfolio/ilmondo'>More details</Link>
                                             </button>
                                         </div>
@@ -158,6 +164,9 @@ function Portfolio() {
                                         </ul>
                                         <div className={styles.more}>
                                             <button>
+                                                <div className={styles.icon}>
+                                                    <AiOutlineFolderView/>
+                                                </div>
                                                 <Link href='/portfolio/amazon'>More details</Link>
 
                                             </button>
