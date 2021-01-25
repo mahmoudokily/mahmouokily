@@ -29,7 +29,7 @@ function Header() {
                 </ul>
                 <ul className={styles.cv_items}>
                     <li className={styles.nav_item}>  <Link href='/cv'>My Cv</Link></li>
-                    {/*<li className={styles.nav_item}> Personal Blog</li>*/}
+                    <li className={styles.nav_item}> <Link href='/blog'>Personal Blog</Link></li>
                 </ul>
                 <div className={styles.social}>
                     <div className={styles.social_head}>

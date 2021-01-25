@@ -89,12 +89,12 @@ function Nav(){
                     <ul className={styles.nav_items}  >
                         <li className={styles.nav_item}><Link href='/'>Home</Link></li>
                         <li className={styles.nav_item}><Link href='/portfolio'>Portfolio</Link></li>
-                        <li className={styles.nav_item}> <Link href='/myoffer'>My Offer</Link> My Offer</li>
+                        <li className={styles.nav_item}> <Link href='/myoffer'>My Offer</Link> </li>
                         <li className={styles.nav_item}><Link href='/contact'>Contact Me</Link></li>
                     </ul>
                     <ul className={styles.cv_items}>
                         <li className={styles.nav_item}> <Link href='/cv'>My Cv</Link></li>
-                        {/*<li className={styles.nav_item}> Personal Blog</li>*/}
+                        <li className={styles.nav_item}> <Link href='/blog'>Personal Blog</Link></li>
                     </ul>
                 </div>
 
