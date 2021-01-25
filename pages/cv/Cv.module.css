@@ -13,7 +13,8 @@
     background-color: white;
     max-width: 842px;
     box-shadow: 2px 2px 1px #606060;
-    min-height: 1091px;
+    min-height: 100vh;
+    padding: 30px 0px;
 
 
 
@@ -29,6 +30,11 @@
 }
 .img{
     padding: 10px;
+    max-width: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 
 }
 .img img{
@@ -69,11 +75,18 @@
 .date{
     text-align: right;
     padding: 0px 20px;
+    color: #737373;
 
 
 
 }
-
+.right ul {
+    list-style: circle;
+    padding: 10px;
+}
+.right ul li{
+    padding: 5px 0;
+}
 
 
 .sec_head{
@@ -94,4 +107,67 @@
     display: grid;
     grid-template-columns: 2fr 5fr;
     grid-column: 1/2;
+    list-style: circle;
+}
+.item li{
+    padding: 5px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+.social{
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0px 20px;
+    display: none;
+    align-items: center;
+    align-content: center;
+}
+.social_body{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+}
+.social_body a{
+    font-size: 20px;
+    padding: 0px 5px;
+    color: brown;
+}
+@media screen  and (max-width: 720px){
+    .grid_3{
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .contact{
+        text-align: center;
+        display: none;
+    }
+    .gris_2{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .social{
+        display: flex;
+    }
+    .item{
+        grid-template-columns: 1fr;
+        padding: 5px 30px;
+
+    }
+
+    .date{
+        text-align: left;
+        padding: 0;
+    }
+
+
 }

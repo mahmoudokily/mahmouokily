@@ -1,5 +1,8 @@
 import styles from './Cv.module.css'
-
+import Link from 'next/link'
+import {FaInstagram} from "react-icons/fa";
+import {AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillTwitterSquare, AiOutlineMenu} from "react-icons/ai";
+import {SiGmail} from "react-icons/si";
 function Cv() {
     return (
         <div className={styles.container}>
@@ -23,10 +26,55 @@ function Cv() {
                             </div>
                             <div className={styles.contact}>
                                 <ul>
-                                    <li>www.mahmoudokily.it</li>
-                                    <li>okilymahmoud48@gmail.com</li>
-                                    <li>mahmoudokily@linkdin</li>
+                                    <li><a href='http://www.mahmoudokily.me' target="_blank">mahmoudokily.me</a></li>
+                                    <li><a href="mailto:okilymahmoud48@gmail.com"> mahmoudokily@gmail</a></li>
+                                    <li>
+                                        <a href='https://www.linkedin.com/in/mahmoud-okily-3ab3a7b6/' target="_blank">mahmoudokily@linkdin</a>
+                                    </li>
                                 </ul>
+
+                            </div>
+                            <div className={styles.social}>
+                                <div className={styles.social_body}>
+
+                                    <a href="https://www.instagram.com/midooimam/" target="_blank">
+                                        <div>
+                                            <FaInstagram/>
+                                        </div>
+                                    </a>
+
+                                    <a href='https://www.facebook.com/mahmoudhassan993/' target="_blank">
+                                        <div>
+                                            <AiFillFacebook/>
+                                        </div>
+                                    </a>
+
+                                    <a href="mailto:okilymahmoud48@gmail.com" target="_blank">
+                                        <div>
+                                            <SiGmail/>
+                                        </div>
+                                    </a>
+                                    <a href='https://twitter.com/hesham_alamam' target="_blank">
+                                        <div>
+                                            <AiFillTwitterSquare/>
+                                        </div>
+                                    </a>
+
+
+                                    <a href='https://github.com/heshamalamam73' target="_blank">
+                                        <div>
+                                            <AiFillGithub/>
+                                        </div>
+                                    </a>
+                                    <a href='https://www.linkedin.com/in/mahmoud-okily-3ab3a7b6/' target="_blank">
+                                        <div>
+                                            <AiFillLinkedin/>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+
 
                             </div>
                         </div>

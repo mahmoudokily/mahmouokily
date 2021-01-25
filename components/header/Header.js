@@ -24,7 +24,7 @@ function Header() {
                 <ul className={styles.nav_items}>
                     <li className={styles.nav_item}><Link href='/'>Home</Link></li>
                     <li className={styles.nav_item}><Link href='/portfolio'>Portfolio</Link></li>
-                    <li className={styles.nav_item}> My Offer</li>
+                    {/*<li className={styles.nav_item}> My Offer</li>*/}
                     <li className={styles.nav_item}><Link href='/contact'>Contact Me</Link></li>
                 </ul>
                 <ul className={styles.cv_items}>

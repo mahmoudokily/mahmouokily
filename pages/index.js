@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className={styles.home_btns}>
                 <button><Link href='/portfolio'> Portfolio</Link></button>
-                <button><Link href='/myoffer'> My Offer</Link></button>
+                {/*<button><Link href='/myoffer'> My Offer</Link></button>*/}
 
             </div>
 
