@@ -23,6 +23,9 @@ function Nav(){
         }
     return(
         <div className={styles.container}>
+            <Link href={'/'}>
+
+
             <div className={styles.head}>
                 <div className={styles.head_img}>
                     <img
@@ -34,6 +37,7 @@ function Nav(){
                     <div className={styles.h2}>Full-Stack Web Developer</div>
                 </div>
             </div>
+            </Link>
             <div className={styles.social}>
                 <div className={styles.social_body}>
 
@@ -90,7 +94,7 @@ function Nav(){
                     </ul>
                     <ul className={styles.cv_items}>
                         <li className={styles.nav_item}> <Link href='/cv'>My Cv</Link></li>
-                        <li className={styles.nav_item}> Personal Blog</li>
+                        {/*<li className={styles.nav_item}> Personal Blog</li>*/}
                     </ul>
                 </div>
 
