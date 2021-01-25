@@ -5,8 +5,11 @@ import {SiGmail} from "react-icons/si";
 import Header from '../header/Header'
 import Nav from "../mobile/Nav";
 import Footer from "../footer/footer";
+import {useEffect} from 'react'
 
 function Layout ({children, title}){
+
+
     return(
         <div  className={styles.grid_2}>
             <div className={styles.grid_left}>
@@ -15,7 +18,7 @@ function Layout ({children, title}){
             <div className={styles.mobile_nav}>
                 <Nav/>
             </div>
-            <div>   {children}</div>
+            <div id='child'>  {children}</div>
             <Footer/>
         </div>
 

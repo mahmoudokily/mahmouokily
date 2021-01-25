@@ -9,20 +9,24 @@ import {useEffect,useState} from 'react'
 function Nav(){
     const [active , setActive ]= useState(false)
     useEffect(()=>{
+        const child = document.getElementById("child")
 
+        const list = document.getElementById("more_navs")
+        child.addEventListener("click", function (){
+            list.classList.remove(styles.active)
+        })
 
     })
     const handleshowLinks = ()=>{
         const list = document.getElementById("more_navs")
                 list.classList.toggle(styles.active)
-
         }
     return(
         <div className={styles.container}>
             <div className={styles.head}>
                 <div className={styles.head_img}>
                     <img
-                        src="https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/75362182_3833076326718347_3625659778937651200_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=14TNU38xdocAX--c5Ak&_nc_ht=scontent-mxp1-1.xx&oh=dc4abb77d382dfdbd649177e590b600c&oe=602FC337"
+                        src='me2.jpg'
                         alt=""/>
                 </div>
                 <div className={styles.head_text}>
@@ -78,7 +82,7 @@ function Nav(){
             </div>
 
                 <div className={styles.more_navs} id="more_navs">
-                    <ul className={styles.nav_items} >
+                    <ul className={styles.nav_items}  >
                         <li className={styles.nav_item}><Link href='/'>Home</Link></li>
                         <li className={styles.nav_item}><Link href='/portfolio'>Portfolio</Link></li>
                         {/*<li className={styles.nav_item}> My Offer</li>*/}

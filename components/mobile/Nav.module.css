@@ -22,11 +22,13 @@
     font-size: 20px;
     padding: 0px 5px;
 }
+
 .hamburger{
     color: aliceblue;
     font-size: 20px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .head{
@@ -64,6 +66,7 @@
 .nav_items,.cv_items{
     padding: 10px 20px;
     color:aliceblue;
+
 }
 .nav_item{
     padding: 5px 0px;
@@ -73,6 +76,8 @@
 }
 .nav_item:hover{
     opacity: 1;
+    text-shadow: 1px 1px 1px #000;
+
 }
 
 

@@ -14,6 +14,10 @@ export default function Home() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1  }}
                         transition={{ delay: .2 }}>
+                <motion.div
+                            initial={{ opacity: 0}}
+                            animate={{ opacity: 1  }}
+                            transition={{ delay: .6 }}>
             <h1 className={styles.name}>
              hello, i'm okily ,,
             </h1>
@@ -24,10 +28,11 @@ export default function Home() {
                 Reactjs , Nextjs , Nodejs
             </div>
             <div className={styles.home_btns}>
-                <button><Link href='/portfolio'> Portfolio</Link></button>
+                <Link href='/portfolio'><button> Portfolio </button></Link>
                 {/*<button><Link href='/myoffer'> My Offer</Link></button>*/}
 
             </div>
+                </motion.div>
 
 
             </motion.div>

@@ -36,7 +36,12 @@
     padding: 5px 0px;
     cursor: pointer;
     opacity: .8;
-    transition: opacity 500ms;
+    transition: all 500ms ease-in-out;
+
+}
+.nav_item:hover{
+  font-size: 15px;
+
 }
 .nav_item:hover{
     opacity: 1;

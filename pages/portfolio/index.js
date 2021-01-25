@@ -56,14 +56,16 @@ function Portfolio({ isVisible }) {
                                             </li>
 
                                         </ul>
+                                        <Link href='/portfolio/yalpcamp'>
                                         <div className={styles.more}>
                                             <button>
                                                 <div className={styles.icon}>
                                                     <AiOutlineFolderView/>
                                                 </div>
-                                                <Link href='/portfolio/yalpcamp'>More details</Link>
+                                              More details
                                             </button>
                                         </div>
+                                        </Link>
                                         <div className={styles.tecno}>
                                             <div className={styles.tecno_head}>
                                                 TECHNOLOGIES
@@ -77,12 +79,14 @@ function Portfolio({ isVisible }) {
                                             <li><a href="#">MapBox</a></li>
                                         </ul>
                                     </div>
+                                    <Link href='/portfolio/yalpcamp'>
+
                                     <div className={styles.project_img}>
                                         <div className={styles.img}>
                                             <img src="yalpcamp.png" alt="yalpcamp"/>
                                         </div>
                                     </div>
-
+                                    </Link>
                                 </div>
 
                             </div>
@@ -110,14 +114,16 @@ function Portfolio({ isVisible }) {
                                             </li>
 
                                         </ul>
+                                        <Link href='/portfolio/ilmondo'>
                                         <div className={styles.more}>
                                             <button>
                                                 <div className={styles.icon}>
                                                     <AiOutlineFolderView/>
                                                 </div>
-                                                <Link href='/portfolio/ilmondo'>More details</Link>
+                                               More details
                                             </button>
                                         </div>
+                                        </Link>
                                         <div className={styles.tecno}>
                                             <div className={styles.tecno_head}>
                                                 TECHNOLOGIES
@@ -130,11 +136,14 @@ function Portfolio({ isVisible }) {
                                             <li><a href="#">api</a></li>
                                         </ul>
                                     </div>
+                                    <Link href='/portfolio/ilmondo'>
+
                                     <div className={styles.project_img}>
                                         <div className={styles.img}>
                                             <img src="ilmondo.png" alt="yalpcamp"/>
                                         </div>
                                     </div>
+                                    </Link>
 
                                 </div>
 
@@ -168,15 +177,17 @@ function Portfolio({ isVisible }) {
                                                 daily
                                             </li>
                                         </ul>
+                                        <Link href='/portfolio/amazon'>
                                         <div className={styles.more}>
                                             <button>
                                                 <div className={styles.icon}>
                                                     <AiOutlineFolderView/>
                                                 </div>
-                                                <Link href='/portfolio/amazon'>More details</Link>
+                                               More details
 
                                             </button>
                                         </div>
+                                        </Link>
                                         <div className={styles.tecno}>
                                             <div className={styles.tecno_head}>
                                                 TECHNOLOGIES
@@ -191,11 +202,13 @@ function Portfolio({ isVisible }) {
                                             <li><a href="#">Javascript</a></li>
                                         </ul>
                                     </div>
+                                    <Link href='/portfolio/amazon'>
                                     <div className={styles.project_img}>
                                         <div className={styles.img}>
                                             <img src="amazon.png" alt="yalpcamp"/>
                                         </div>
                                     </div>
+                                    </Link>
 
                                 </div>
 

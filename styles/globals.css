@@ -22,7 +22,7 @@ img{
 a {
   color: inherit;
   text-decoration: none;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Slab', serif!important;
 
 }
 button{
@@ -31,6 +31,8 @@ button{
 
 * {
   box-sizing: border-box;
+  font-family: 'Josefin Slab', serif!important;
+
 }
 ul{
 
