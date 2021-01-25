@@ -43,11 +43,14 @@ function Artical({id}) {
             <head>
                 <title>{currentartical.title}</title>
                 <title>Your Website Title</title>
-                <meta property="og:url"           content={"http://www.mahmoudokily.com/blog/" + currentartical.id} />
+                <meta property="og:url"           content={"http://www.mahmoudokily.com/blog/"+currentartical.id} />
                 <meta property="og:type"          content="website" />
                 <meta property="og:title"         content={currentartical.title} />
                 <meta property="og:description"   content={currentartical.desc} />
                 <meta property="og:image"         content={currentartical.img} />
+                <meta property='og:image:width ' content='600'/>
+                <meta property='og:image:height ' content='315'/>
+
             </head>
 
             <div className={styles.article}>
@@ -128,7 +131,7 @@ function Artical({id}) {
                         </div>
                     </a>
 
-                    <div className={styles.facebook}
+                    <div className="fb-share-button"
                          data-href="http://www.mahmoudokily.me/blog/1"
                          data-layout="button_count">
                     </div>
