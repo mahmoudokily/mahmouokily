@@ -3,16 +3,21 @@ import Link from 'next/link'
 import {FaInstagram} from "react-icons/fa";
 import {AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillTwitterSquare, AiOutlineMenu} from "react-icons/ai";
 import {SiGmail} from "react-icons/si";
+import {motion} from "framer-motion";
+import Layout from "../../components/layout/Layout";
 function Cv() {
     return (
-        <div className={styles.container}>
+        <motion.div className={styles.container}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1  }}
+                    transition={{ delay: .2 }}>
             <div className={styles.cv_body}>
                 <div className={styles.cv}>
                     <div className={styles.content}>
                         <div className={styles.grid_3}>
                             <div className={styles.img}>
                                 <img
-                                    src="me.jpg"
+                                    src="me2.jpg"
                                     alt=""/>
                             </div>
                             <div className={styles.title}>
@@ -186,58 +191,10 @@ function Cv() {
             </div>
 
 
-        </div>
+        </motion.div>
     )
 
 }
 
 
 export default Cv;
-<div className={styles.skills}>
-    <div></div>
-    <div className={styles.skills_body}>
-        <div className={styles.sec_head}>
-            Skills
-        </div>
-
-
-
-    </div>
-    <div>
-        <div className={styles.date}>
-            2016-2020
-        </div>
-    </div>
-    <div className={styles.skills_body}>
-
-
-
-
-
-    </div>
-
-    <div className={styles.date}>
-        <div>assuit university -Egypt 2012-2016</div>
-
-        <div>2016-2020</div>
-    </div>
-
-    <div className={styles.skills_body}>
-        <div className={styles.sec_head}>
-        </div>
-        <ul>
-            <li className={styles.parent}>
-                univercity of commerce and economia
-
-            </li>
-            <li>
-                self study (online courses)
-            </li>
-
-        </ul>
-
-
-    </div>
-
-
-</div>

@@ -4,11 +4,16 @@ import {FiExternalLink} from 'react-icons/fi'
 
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 function Ilmondo() {
     return (
         <Layout>
-            <div className={styles.details}>
+            <motion.div className={styles.details}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1  }}
+                        transition={{ delay: .2 }}>
+
                 <div className={styles.h1}>
                     Ilmondo
                 </div>
@@ -83,8 +88,7 @@ function Ilmondo() {
                 </div>
 
 
-            </div>
-
+</motion.div>
 
         </Layout>
 

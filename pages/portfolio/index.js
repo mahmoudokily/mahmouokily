@@ -2,10 +2,16 @@ import styles from './Portfolio.module.css';
 import Link from "next/link";
 import Layout from "../../components/layout/Layout";
 import {AiOutlineFolderView} from "react-icons/ai";
-function Portfolio() {
+import { motion } from "framer-motion"
+
+function Portfolio({ isVisible }) {
+
     return(
         <Layout >
-        <div className={styles.container}>
+        <motion.div className={styles.container}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1  }}
+                    transition={{ delay: .2 }}>
             <div className={styles.right}>
                 <div className={styles.scorll}>
                     <div className={styles.right_head}>
@@ -203,7 +209,7 @@ function Portfolio() {
 
             </div>
 
-        </div>
+        </motion.div>
         </Layout>
 
     )

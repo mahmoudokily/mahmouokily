@@ -2,14 +2,16 @@
   "name": "my2021",
   "version": "0.1.0",
   "engines": {
-    "node": "12.x"
+    "node": "14.5.0"
   },
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT"  },
+    "start": "next start -p $PORT"
+  },
   "dependencies": {
+    "framer-motion": "^3.2.2-rc.1",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",

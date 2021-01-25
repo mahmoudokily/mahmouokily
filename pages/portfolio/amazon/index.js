@@ -4,11 +4,15 @@ import {FiExternalLink} from 'react-icons/fi'
 
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 function Amazon() {
     return (
         <Layout>
-            <div className={styles.details}>
+            <motion.div className={styles.details}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1  }}
+                        transition={{ delay: .2 }}>
                 <div className={styles.h1}>
                     Amazon
                 </div>
@@ -104,8 +108,7 @@ function Amazon() {
                 </div>
 
 
-            </div>
-
+</motion.div>
 
         </Layout>
 

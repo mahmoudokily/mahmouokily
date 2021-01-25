@@ -2,10 +2,14 @@ import Layout from "../../components/layout/Layout.js";
 import styles from './Contact.module.css'
 import {AiFillGithub} from "react-icons/ai";
 import {SiGmail} from "react-icons/si";
+import {motion} from "framer-motion";
 function Contact() {
     return(
         <Layout>
-            <div className={styles.container}>
+            <motion.div className={styles.container}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1  }}
+                        transition={{ delay: .2 }}>
                 <div className={styles.head}>Contact Me
                 </div>
                 <div className={styles.p}>I am available for hire and open to any ideas of cooperation.
@@ -52,7 +56,7 @@ function Contact() {
                     </ul>
 
                 </div>
-            </div>
+            </motion.div>
         </Layout>
 
     )

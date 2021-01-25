@@ -1,6 +1,7 @@
 .container{
     padding: 20px;
     background-color: #c1c1c1;
+    min-height: 100vh;
 }
 .head{
     font-size: 25px;

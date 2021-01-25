@@ -9,17 +9,14 @@ import {useEffect,useState} from 'react'
 function Nav(){
     const [active , setActive ]= useState(false)
     useEffect(()=>{
+
+
+    })
+    const handleshowLinks = ()=>{
         const list = document.getElementById("more_navs")
-        if(active){
-       list.style.height="auto"
-
-        }else{
-
+                list.classList.toggle(styles.active)
 
         }
-    })
-
-
     return(
         <div className={styles.container}>
             <div className={styles.head}>
@@ -73,15 +70,15 @@ function Nav(){
 
 
                 </div>
-                <div className={styles.hamburger}  onClick={()=> {setActive(!active)}}>
+                <div className={styles.hamburger}  onClick={handleshowLinks}>
                     <AiOutlineMenu />
 
                 </div>
 
             </div>
-            {active && (
+
                 <div className={styles.more_navs} id="more_navs">
-                    <ul className={styles.nav_items}>
+                    <ul className={styles.nav_items} >
                         <li className={styles.nav_item}><Link href='/'>Home</Link></li>
                         <li className={styles.nav_item}><Link href='/portfolio'>Portfolio</Link></li>
                         {/*<li className={styles.nav_item}> My Offer</li>*/}
@@ -92,7 +89,7 @@ function Nav(){
                         <li className={styles.nav_item}> Personal Blog</li>
                     </ul>
                 </div>
-            )}
+
         </div>
     )
 }
