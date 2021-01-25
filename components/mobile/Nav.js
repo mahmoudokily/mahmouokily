@@ -29,7 +29,7 @@ function Nav(){
             <div className={styles.head}>
                 <div className={styles.head_img}>
                     <img
-                        src='me2.jpg'
+                        src='/me2.jpg'
                         alt=""/>
                 </div>
                 <div className={styles.head_text}>
