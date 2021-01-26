@@ -27,6 +27,12 @@ function Cv() {
                                 <div className={styles.job}>
                                     Full-stack web Developer
                                 </div>
+                                <div className={styles.job}>
+                                    Italy, como ,22063
+                                </div>
+                                <div className={styles.job}>
+                                    tel : 3332432718
+                                </div>
 
                             </div>
                             <div className={styles.contact}>

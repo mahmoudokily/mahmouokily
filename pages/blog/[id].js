@@ -41,13 +41,14 @@ function Artical({id}) {
                     animate={{ opacity: 1  }}
                     transition={{ delay: .2 }}>
             <head>
-                <title>{currentartical.title}</title>
-                <title>Your Website Title</title>
-                <meta property="og:url"           content={"http://www.mahmoudokily.com/blog/"+currentartical.id} />
-                <meta property="og:type"          content="website" />
-                <meta property="og:title"         content={currentartical.title} />
-                <meta property="og:description"   content={currentartical.desc} />
-                <meta property="og:image"         content={currentartical.img} />
+                <title>{currentartical.title.toUpperCase()}</title>
+                <meta property="og:url"           content="http://www.mahmoudokily.com/blog/2" />
+                <meta property="og:type"          content="article" />
+                <meta property="og:title"         content="The characteristics of a good User Experience Designer
+" />
+                <meta property="og:description"   content="
+Shows they can balance their craft with making business decisions There are many great things to do, but what you choose to do and why you do will make or break your product This probably means they won’t need to rely on their boss to prioritize their work for them" />
+                <meta property="og:image"         content="https://getadigital.com/globalassets/blog/daniel/why-ux-is-important/ux.png" />
                 <meta property='og:image:width ' content='600'/>
                 <meta property='og:image:height ' content='315'/>
 
@@ -130,11 +131,12 @@ function Artical({id}) {
                             <AiFillLinkedin/>
                         </div>
                     </a>
+                    {console.log(currentartical.title)}
 
-                    <div className="fb-share-button"
-                         data-href="http://www.mahmoudokily.me/blog/1"
-                         data-layout="button_count">
-                    </div>
+                    {/*<div className="fb-share-button"*/}
+                    {/*     data-href="http://www.mahmoudokily.me/blog/2"*/}
+                    {/*     data-layout="button_count">*/}
+                    {/*</div>*/}
 
 
                 </div>

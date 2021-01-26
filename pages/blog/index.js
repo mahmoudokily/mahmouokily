@@ -6,6 +6,7 @@ import {motion} from "framer-motion";
 import {blogs} from '../../components/blogs'
 import {useEffect } from 'react'
 import Layout from "../../components/layout/Layout";
+import head from "next";
 
 function Blog() {
         const Article = (blogs) => {
@@ -43,6 +44,9 @@ function Blog() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1  }}
                     transition={{ delay: .2 }}>
+            <head>
+                <title>Blog</title>
+            </head>
             <div className={styles.header}>
                 <div className={styles.logo}>
                     <img src="/me2.jpg" alt=""/>
