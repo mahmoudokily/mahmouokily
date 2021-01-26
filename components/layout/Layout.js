@@ -29,6 +29,13 @@ function Layout({children, title}) {
                 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
                 <link rel="manifest" href="/manifest.json"/>
+                <meta property="og:url"           content="http://www.mahmoudokily.com/" />
+                <meta property="og:type"          content="website" />
+                <meta property="og:title"         content="Mahmoud Okily " />
+                <meta property="og:description"   content="Full-stack web developer" />
+                <meta property="og:image"         content="http://www.mahmoudokily.me/me2.jpg" />
+                <meta property='og:image:width ' content='600'/>
+                <meta property='og:image:height ' content='315'/>
 
             </head>
             <div className={styles.grid_left}>

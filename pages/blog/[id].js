@@ -47,7 +47,7 @@ function Artical({id}) {
                 <meta property="og:title"         content="The characteristics of a good User Experience Designer
 " />
                 <meta property="og:description"   content="
-Shows they can balance their craft with making business decisions There are many great things to do, but what you choose to do and why you do will make or break your product This probably means they won’t need to rely on their boss to prioritize their work for them" />
+Shows                   they can balance their craft with making business decisions There are many great things to do, but what you choose to do and why you do will make or break your product This probably means they won’t need to rely on their boss to prioritize their work for them" />
                 <meta property="og:image"         content="https://getadigital.com/globalassets/blog/daniel/why-ux-is-important/ux.png" />
                 <meta property='og:image:width ' content='600'/>
                 <meta property='og:image:height ' content='315'/>
