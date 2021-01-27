@@ -41,22 +41,22 @@ function Yalpcamp() {
 
                 </ul>
                 <div className={styles.more}>
-                    <button>
+
                         <Link href='https://yalpcamps.herokuapp.com/'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <FiExternalLink/>
                             </div>
                             View online
                         </a></Link>
-                    </button>
-                    <button>
+
+
                         <Link href='https://github.com/heshamalamam73/yalpcamp/tree/yalpcamps_v3'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <AiFillGithub/>
                             </div>
                             Github repository
                         </a></Link>
-                    </button>
+
                 </div>
                 <div className={styles.tecno}>
                     <div className={styles.tecno_head}>

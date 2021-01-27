@@ -37,22 +37,18 @@ function Ilmondo() {
 
                 </ul>
                 <div className={styles.more}>
-                    <button>
                         <Link href='https://ilmondo.herokuapp.com/'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <FiExternalLink/>
                             </div>
                             View online
                         </a></Link>
-                    </button>
-                    <button>
                         <Link href='https://github.com/heshamalamam73/ilmondo'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <AiFillGithub/>
                             </div>
                             Github repository
                         </a></Link>
-                    </button>
                 </div>
                 <div className={styles.tecno}>
                     <div className={styles.tecno_head}>

@@ -42,22 +42,18 @@ function Amazon() {
                 </ul>
 
                 <div className={styles.more}>
-                    <button>
                         <Link href='https://amazon2021.herokuapp.com/'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <FiExternalLink/>
                             </div>
                             View online
                         </a></Link>
-                    </button>
-                    <button>
                         <Link href='https://github.com/heshamalamam73/amazon_clone'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <AiFillGithub/>
                             </div>
                             Github repository
                         </a></Link>
-                    </button>
                 </div>
                 <div className={styles.tecno}>
                     <div className={styles.tecno_head}>
@@ -65,11 +61,12 @@ function Amazon() {
                     </div>
                 </div>
                 <ul className={styles.tecno_body}>
-                    <li><a href="#">React</a></li>
-                    <li><a href="#">Redux</a></li>
-                    <li><a href="#">Reactstrap</a></li>
-                    <li><a href="#">Nodejs</a></li>
-                    <li><a href="#">MapBox</a></li>
+                    <li><a href="#">nextjs</a></li>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">nodejs</a></li>
+                    <li><a href="#">express</a></li>
+                    <li><a href="#">Javascript</a></li>
                 </ul>
                 <div className={styles.images}>
                     <div className={styles.full_img}>

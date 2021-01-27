@@ -25,11 +25,10 @@
 }
 
 .tecno_body li {
-    min-width: 100px;
+    background: white!important;
     text-align: center;
     padding: 10px;
-    color: aliceblue;
-    background-color: brown;
+    color: brown!important;
     margin: 5px!important;
     display: block;
     opacity: .8;
@@ -60,20 +59,13 @@
     text-transform: capitalize;
 }
 
-.more button {
-    padding: 5px;
-    color: aliceblue;
-    width: 200px;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    background-color: brown;
-    opacity: .8;
-    cursor: pointer;
-    transition: all 500ms;
+.more {
+    display: flex;
 
 }
 
-.more button:hover {
+.more a:hover {
+    color: #4a4a4f;
     opacity: 1;
 }
 
@@ -99,7 +91,10 @@
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 0 20px;
+    color: brown;
+    opacity: .8;
+    cursor: pointer;
+    transition: all 500ms;
 
 }
 
