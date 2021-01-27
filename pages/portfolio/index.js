@@ -213,6 +213,65 @@ function Portfolio({ isVisible }) {
                                 </div>
 
                             </div>
+                            <div className={styles.project_item}>
+                                <div className={styles.grid_2_50}>
+                                    <div className={styles.projrct_details}>
+                                        <div className={styles.h1}>
+                                            Netflex Clone
+                                        </div>
+                                        <div className={styles.alert}>
+                                            Work is in progress
+                                        </div>
+                                        <div className={styles.p}>
+                                            Guarda ciò che vuoi ovunque. Disdici quando vuoi.
+                                        </div>
+                                        <div className={styles.p_bold}>
+                                            Netflex is a web platform that allows you to show a lot of films from your devices such as mobile phone , pc , tv  online or download them and watch latter
+
+                                        </div>
+                                        <ul className={styles.project_desc}>
+                                            <li>
+                                                i just used  Nextjs to create this website without any libraries (html, css )
+                                            </li>
+                                            {/*<li>*/}
+                                            {/*    All data are automatically renewed according to the latest statistics*/}
+                                            {/*    for countries*/}
+                                            {/*</li>*/}
+                                        </ul>
+                                        <Link href='/portfolio/netflex'>
+                                            <div className={styles.more}>
+                                                <button>
+                                                    <div className={styles.icon}>
+                                                        <AiOutlineFolderView/>
+                                                    </div>
+                                                    More details
+
+                                                </button>
+                                            </div>
+                                        </Link>
+                                        <div className={styles.tecno}>
+                                            <div className={styles.tecno_head}>
+                                                TECHNOLOGIES
+                                            </div>
+                                        </div>
+                                        <ul className={styles.tecno_body}>
+                                            <li><a href="#">nextjs</a></li>
+                                            <li><a href="#">html</a></li>
+                                            <li><a href="#">css</a></li>
+                                            <li><a href="#">javascript</a></li>
+                                        </ul>
+                                    </div>
+                                    <Link href='/portfolio/netflex'>
+                                        <div className={styles.project_img}>
+                                            <div className={styles.img}>
+                                                <img src="nf1.png" alt="yalpcamp"/>
+                                            </div>
+                                        </div>
+                                    </Link>
+
+                                </div>
+
+                            </div>
                         </section>
 
                     </div>

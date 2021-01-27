@@ -37,11 +37,12 @@ function Cv() {
                             </div>
                             <div className={styles.contact}>
                                 <ul>
-                                    <li><a href='http://www.mahmoudokily.me' target="_blank">mahmoudokily.me</a></li>
-                                    <li><a href="mailto:okilymahmoud48@gmail.com"> mahmoudokily@gmail</a></li>
+                                    <li><a href='http://www.mahmoudokily.me' target="_blank">Mahmoudokily.me</a></li>
+                                    <li><a href="mailto:okilymahmoud48@gmail.com"> Mahmoudokily@gmail</a></li>
                                     <li>
-                                        <a href='https://www.linkedin.com/in/mahmoud-okily-3ab3a7b6/' target="_blank">mahmoudokily@linkdin</a>
+                                        <a href='https://www.linkedin.com/in/mahmoud-okily-3ab3a7b6/' target="_blank">Mahmoudokily@linkdin</a>
                                     </li>
+                                    <li><a href='https://github.com/heshamalamam73' target="_blank">Mahmoudokily@github</a></li>
                                 </ul>
 
                             </div>

@@ -1,11 +1,10 @@
 import styles from "../P.module.css";
 
 import {FiExternalLink} from 'react-icons/fi'
-
+import {AiFillGithub} from 'react-icons/ai'
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
 import {motion} from "framer-motion";
-import {AiFillGithub} from "react-icons/ai";
 
 function Ilmondo() {
     return (
@@ -16,19 +15,17 @@ function Ilmondo() {
                         transition={{ delay: .2 }}>
 
                 <div className={styles.h1}>
-                    Ilmondo
+                    Netflex
                 </div>
                 <div className={styles.p}>
-                    Learn the statistics of your country
+                    Guarda ciò che vuoi ovunque. Disdici quando vuoi.
                 </div>
                 <div className={styles.p_bold}>
-                    ilmondo is a web platform that allows you to know the statistics of your
-                    country and alot of other countries .
+                    Netflex is a web platform that allows you to show a lot of films from your devices such as mobile phone , pc , tv  online or download them and watch latter
                 </div>
                 <ul className={styles.project_desc}>
                     <li>
-                        You can search for your country and know the statistics such as
-                        population , area , Languages , Borders
+                        i just used  Nextjs to create this website without any libraries (html, css )
                     </li>
                     <li>
                         All data are automatically renewed according to the latest statistics
@@ -38,7 +35,7 @@ function Ilmondo() {
                 </ul>
                 <div className={styles.more}>
                     <button>
-                        <Link href='https://ilmondo.herokuapp.com/'><a className={styles.a}>
+                        <Link href='https://netflex-nextjs.vercel.app/'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <FiExternalLink/>
                             </div>
@@ -46,13 +43,14 @@ function Ilmondo() {
                         </a></Link>
                     </button>
                     <button>
-                        <Link href='https://github.com/heshamalamam73/ilmondo'><a className={styles.a}>
+                        <Link href='https://github.com/heshamalamam73/netflex_nextjs/tree/v2'><a className={styles.a}>
                             <div className={styles.icon}>
                                 <AiFillGithub/>
                             </div>
                             Github repository
                         </a></Link>
                     </button>
+
                 </div>
                 <div className={styles.tecno}>
                     <div className={styles.tecno_head}>
@@ -60,22 +58,28 @@ function Ilmondo() {
                     </div>
                 </div>
                 <ul className={styles.tecno_body}>
-                    <li><a href="#">React</a></li>
-                    <li><a href="#">Redux</a></li>
-                    <li><a href="#">Reactstrap</a></li>
-                    <li><a href="#">Nodejs</a></li>
-                    <li><a href="#">MapBox</a></li>
+                    <li><a href="#">nextjs</a></li>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">javascript</a></li>
                 </ul>
                 <div className={styles.images}>
                     <div className={styles.full_img}>
-                        <img src="../ilm1.png" alt=""/>
+                        <img src="../nf1.png" alt=""/>
 
                     </div>
                     <div className={styles.full_img}>
-                        <img src="../ilm2.png" alt=""/>
+                        <img src="../nf2.png" alt=""/>
 
                     </div>
+                    <div className={styles.full_img}>
+                        <img src="../nf3.png" alt=""/>
 
+                    </div>
+                    <div className={styles.full_img}>
+                        <img src="../nf4.png" alt=""/>
+
+                    </div>
 
 
                 </div>
@@ -86,10 +90,16 @@ function Ilmondo() {
 
                     <div className={styles.grid_2}>
                         <div>
-                            <img src="../ilms1.png" alt=""/>
+                            <img src="../nfs1.png" alt=""/>
                         </div>
                         <div>
-                            <img src="../ilms2.png" alt=""/>
+                            <img src="../nfs2.png" alt=""/>
+                        </div>
+                        <div>
+                            <img src="../nfs3.png" alt=""/>
+                        </div>
+                        <div>
+                            <img src="../nfs4.png" alt=""/>
                         </div>
 
                     </div>

@@ -5,6 +5,7 @@ import {FiExternalLink} from 'react-icons/fi'
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
 import {motion} from "framer-motion";
+import {AiFillGithub} from "react-icons/ai";
 
 function Amazon() {
     return (
@@ -47,6 +48,14 @@ function Amazon() {
                                 <FiExternalLink/>
                             </div>
                             View online
+                        </a></Link>
+                    </button>
+                    <button>
+                        <Link href='https://github.com/heshamalamam73/amazon_clone'><a className={styles.a}>
+                            <div className={styles.icon}>
+                                <AiFillGithub/>
+                            </div>
+                            Github repository
                         </a></Link>
                     </button>
                 </div>
