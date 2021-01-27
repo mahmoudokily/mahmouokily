@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <div className={styles.home_btns}>
                 <Link href='/portfolio'><button> Portfolio </button></Link>
-                {/*<button><Link href='/myoffer'> My Offer</Link></button>*/}
+                <Link href='/myoffer'><button> My Offer </button></Link>
 
             </div>
                 </motion.div>
