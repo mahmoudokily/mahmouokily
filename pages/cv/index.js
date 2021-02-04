@@ -175,6 +175,49 @@ function Cv() {
                             </div>
                             <div>
                                 <div className={styles.sec_head}>
+                                    Professional summary
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <ul className={styles.item}>
+                            <div className={styles.date}>
+
+                            </div>
+                            <ul className={styles.skill_item}>
+
+                            <li>
+                                solution-driven web developer adept at contributing to highly collaborative work environment,finding solutions and determining customer satisfaction.
+
+                            </li>
+
+                            <li>
+                                proven experience developing consumer-focused websites using HTML ,CSS and JavaScript.
+                            </li>
+                            <li>
+                                built products for desktop and mobile app users over 4+ years.
+                            </li>
+                            <li>
+                                meeting highest standards for web design , user experience , best practices and speed.
+                            </li>
+                            <li>
+                                designed and developed web applications across multiple APIs , third-party integrations and databases.
+                            </li>
+                            </ul>
+                            <div className={styles.date}>
+                                <span> <br/></span>
+
+                            </div>
+
+                        </ul>
+
+
+                        <div className={styles.gris_2}>
+                            <div>
+                            </div>
+                            <div>
+                                <div className={styles.sec_head}>
                                     Other perks
 
                                 </div>
