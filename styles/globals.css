@@ -34,6 +34,14 @@ button{
   font-family: 'Josefin Slab', serif!important;
 
 }
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0mm 16mm 27mm 0mm;
+
+  }
+}
 ul{
 
 padding: 0px;

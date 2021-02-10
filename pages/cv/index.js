@@ -139,12 +139,43 @@ function Cv() {
                             </div>
                         </div>
                         <ul className={styles.item}>
-                            <div className={styles.date}>        2017-2020</div>
+                            <div className={styles.date}>        2017-2021</div>
                             <li >
                                 freelancer
+                                <ul className={styles.list_child}>
+                                    <li>
+                                        Designed dynamic and browser compatible pages using HTML5, CSS3, jQuery, and Javascript.
+
+                                    </li>
+                                    <li>
+                                        Built single page applications (SPA), responsive web design, UI using HTML5 grid layouts, CSS3 media queries where its an expression and can be used to either true or false.
+
+                                    </li>
+                                    <li>
+                                        Ensure efficient web development by supporting designers and app developers while resolving website performance issues
+
+                                    </li>
+                                    <li>
+                                        Designing frontend within object-oriented Javascript frameworks like react.Js and next.Js.
+
+                                    </li>
+                                </ul>
 
                             </li>
 
+                        </ul>
+                        <ul className={styles.item}>
+                            <div className={styles.date}>
+                                2020-present
+                            </div>
+                            <li>
+                                piattaforme di vendita elettronica
+                                <ul className={styles.list_child}>
+                                    <li>
+                                        Partecipazione alla costruzione del front-end di una delle moderne piattaforme di vendita elettronica using react.js
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                         <div className={styles.gris_2}>
                             <div>
@@ -165,7 +196,7 @@ function Cv() {
                             <li>faculty of commerce</li>
                             <div className={styles.date}>
                                 <span>self study <br/></span>
-                                2016-2020
+                                2016-2021
                             </div>
                             <li>online courses </li>
 
@@ -235,6 +266,16 @@ function Cv() {
 
 
                         </ul>
+                        <div className={styles.sign}>
+                            <div className={styles.sign_text}>
+                                Autorizzo il trattamento dei miei dati personali ai sensi del Dlgs 196 del 30 giugno 2003 e dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.
+                                <div className={styles.firma}>
+                                    Mahmoud Okily
+                                </div>
+                            </div>
+
+
+                        </div>
 
                     </div>
                 </div>
