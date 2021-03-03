@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 function Portfolio({ isVisible }) {
 
     return(
-        <Layout >
+        <Layout title="home">
         <motion.div className={styles.container}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1  }}

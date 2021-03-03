@@ -9,7 +9,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 function Ilmondo() {
   return (
-    <Layout>
+    <Layout title="home">
       <motion.div
         className={styles.details}
         initial={{ opacity: 0 }}
