@@ -98,7 +98,7 @@ function Amazon() {
               transition={{ delay: 0.9 }}
             >
               <img
-                src={mob ? "../netmobile.gif" : "../amazond.gif"}
+                src={mob ? "../amazonm.gif" : "../amazond.gif"}
                 alt=""
                 className={styles.imgg}
                 id="img"

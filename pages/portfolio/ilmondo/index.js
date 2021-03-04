@@ -90,7 +90,7 @@ function Ilmondo() {
               transition={{ delay: 0.9 }}
             >
               <img
-                src={mob ? "../netmobile.gif" : "../ilmondog.gif"}
+                src={mob ? "../ilmondom.gif" : "../ilmondog.gif"}
                 alt=""
                 className={styles.imgg}
                 id="img"

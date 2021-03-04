@@ -99,7 +99,7 @@ function Yalpcamp() {
               transition={{ delay: 0.9 }}
             >
               <img
-                src={mob ? "../netmobile.gif" : "../yalpcampd.gif"}
+                src={mob ? "../yalpcampm.gif" : "../yalpcampd.gif"}
                 alt=""
                 className={styles.imgg}
                 id="img"
