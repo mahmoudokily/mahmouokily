@@ -1,5 +1,5 @@
 
-.details {
+.details  {
     padding: 30px;
 }
 
@@ -22,6 +22,7 @@
 .tecno_body {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .tecno_body li {
@@ -71,15 +72,32 @@
 
 .images {
     width: 100%;
-    padding-top: 40px;
     border-top: 1px solid #eee;
-    margin-top: 10px;
 
 }
-
-.full_img img {
+.full_img img{
+    padding: 0%;
+    margin: 0;
+    height: 450px;
     width: 100%;
+    transition: all 1s ease-in;
 }
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control button{
+    padding: 5px 10px;
+    min-width: 150px;
+    margin:0px 2px;
+    font-size: 20px;
+    color : black;
+    cursor: pointer;
+}
+
+
 
 .icon {
     font-size: 25px;
@@ -151,6 +169,12 @@
 
     .grid_2 img {
         width: 100%;
+    }
+    .full_img img{
+        max-height: 450px;
+    }
+    .zoom{
+        display: none;
     }
 }
 

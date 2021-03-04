@@ -16,7 +16,6 @@ function Blog() {
           <head>
             <title>Blog</title>
           </head>
-
           <div className={styles.blog_item_title} id="1">
             {blog.title}
           </div>

@@ -9,6 +9,7 @@ color: #4a4a4f!important;
   margin: 0;
   scroll-behavior: smooth;
   box-sizing: inherit;
+
 }
 div{
   box-sizing: border-box;
@@ -18,7 +19,12 @@ div{
 
 img{
   object-fit: contain;
+  max-width: 100%;
+ 
+
 }
+
+
 a {
   color: inherit;
   text-decoration: none;

@@ -5,9 +5,23 @@ import { FiExternalLink } from "react-icons/fi";
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { AiFillGithub } from "react-icons/ai";
-
+import { AiFillGithub, AiOutlineMobile } from "react-icons/ai";
+import { MdComputer } from "react-icons/md";
+import { useState } from "react";
 function Ilmondo() {
+  const [mob, setMob] = useState(false);
+  const [zoomIn, setZoomIn] = useState(true);
+  function zoomMe() {
+    const img = document.getElementById("img");
+    if (zoomIn) {
+      img.style.height = "700px";
+      setZoomIn(!zoomIn);
+    } else {
+      img.style.height = "450px";
+      setZoomIn(!zoomIn);
+    }
+  }
+
   return (
     <Layout title="home">
       <motion.div
@@ -69,22 +83,31 @@ function Ilmondo() {
         </ul>
         <div className={styles.images}>
           <div className={styles.full_img}>
-            <img src="../ilm1.png" alt="" />
+            <motion.div
+              className={styles.details}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.9 }}
+            >
+              <img
+                src={mob ? "../netmobile.gif" : "../ilmondog.gif"}
+                alt=""
+                className={styles.imgg}
+                id="img"
+              />
+            </motion.div>
           </div>
-          <div className={styles.full_img}>
-            <img src="../ilm2.png" alt="" />
-          </div>
-        </div>
-        <div className={styles.mobile}>
-          <div className={styles.mobile_head}>Mobile version</div>
-
-          <div className={styles.grid_2}>
-            <div>
-              <img src="../ilms1.png" alt="" />
-            </div>
-            <div>
-              <img src="../ilms2.png" alt="" />
-            </div>
+          <div className={styles.control}>
+            <button onClick={() => setMob(true)}>
+              <AiOutlineMobile />
+            </button>
+            <button onClick={() => setMob(false)}>
+              <MdComputer />
+            </button>
+            <button className={styles.zoom} onClick={zoomMe}>
+              {" "}
+              {zoomIn ? "zoom in" : "zoom out"}
+            </button>
           </div>
         </div>
       </motion.div>
