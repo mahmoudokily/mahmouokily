@@ -10,8 +10,7 @@ import { GrLinkNext } from "react-icons/gr";
 import { useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Layout from "../../components/layout/Layout";
-import head from "next";
+import Head from "next/head";
 
 function Artical({ id }) {
   useEffect(() => {
@@ -48,7 +47,7 @@ function Artical({ id }) {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2 }}
     >
-      <head>
+      <Head>
         <title>{currentartical.title.toUpperCase()}</title>
         <meta property="og:url" content="http://www.mahmoudokily.com/blog/2" />
         <meta property="og:type" content="article" />
@@ -68,7 +67,7 @@ Shows                   they can balance their craft with making business decisi
         />
         <meta property="og:image:width " content="600" />
         <meta property="og:image:height " content="315" />
-      </head>
+      </Head>
 
       <div className={styles.article}>
         <div className={styles.head}>
@@ -114,7 +113,6 @@ Shows                   they can balance their craft with making business decisi
               <AiFillLinkedin />
             </div>
           </a>
-          {console.log(currentartical.title)}
 
           {/*<div className="fb-share-button"*/}
           {/*     data-href="http://www.mahmoudokily.me/blog/2"*/}
@@ -124,8 +122,8 @@ Shows                   they can balance their craft with making business decisi
       </div>
       <div className={styles.related}>
         <div className={styles.head}>Most Recent Articals</div>
-        {blogs.map((blog) => (
-          <div className={styles.related_item}>
+        {blogs.map((blog,i) => (
+          <div className={styles.related_item} key={i}>
             <div className={styles.related_title}>
               <Link href={`/blog/` + blog.id}>{blog.title}</Link>
             </div>

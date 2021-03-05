@@ -3,54 +3,58 @@
 
 html,
 body {
-  font-family: 'Josefin Slab', serif;
-color: #4a4a4f!important;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-  box-sizing: inherit;
-
-}
-div{
-  box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+    color: #4a4a4f !important;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: inherit;
 
 }
 
+div {
+    box-sizing: border-box;
 
-img{
-  object-fit: contain;
-  max-width: 100%;
- 
+}
+
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+
 
 }
 
 
 a {
-  color: inherit;
-  text-decoration: none;
-  font-family: 'Josefin Slab', serif!important;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif !important;
 
 }
-button{
-  outline: none!important;
+
+button {
+    outline: none !important;
 }
 
 * {
-  box-sizing: border-box;
-  font-family: 'Josefin Slab', serif!important;
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif !important;
 
 }
+
 @media print {
-  html, body {
-    width: 210mm;
-    height: 297mm;
-    margin: 0mm 16mm 27mm 0mm;
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0mm 16mm 27mm 0mm;
 
-  }
+    }
 }
-ul{
 
-padding: 0px;
-  list-style: none;
-  margin: 0;
+ul {
+
+    padding: 0px;
+    list-style: none;
+    margin: 0;
 }

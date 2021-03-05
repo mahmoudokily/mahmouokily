@@ -1,7 +1,8 @@
 .container {
     background-color: brown;
 }
-.social{
+
+.social {
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -12,18 +13,20 @@
     border-bottom: 1px solid #eeeeee;
     padding: 0px 20px;
 }
-.social_body{
+
+.social_body {
     display: flex;
     color: aliceblue;
     align-items: center;
 
 }
-.social_body a{
+
+.social_body a {
     font-size: 20px;
     padding: 0px 5px;
 }
 
-.hamburger{
+.hamburger {
     color: aliceblue;
     font-size: 20px;
     display: flex;
@@ -31,7 +34,7 @@
     cursor: pointer;
 }
 
-.head{
+.head {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -40,20 +43,22 @@
     align-items: center;
     padding-top: 20px;
 }
-.head_img{
 
-}
+
+
 .head_img img {
-    width:150px;
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     text-align: center;
 }
-.h1{
+
+.h1 {
     font-size: 28px;
     letter-spacing: 2px;
 }
-.head_text{
+
+.head_text {
     text-align: center;
     color: antiquewhite;
     margin-bottom: 20px;
@@ -61,39 +66,39 @@
 }
 
 
-
-
-.nav_items,.cv_items{
+.nav_items, .cv_items {
     padding: 10px 20px;
-    color:aliceblue;
+    color: aliceblue;
 
 }
-.nav_item{
+
+.nav_item {
     padding: 5px 0px;
     cursor: pointer;
     opacity: .8;
     transition: opacity 500ms;
 }
-.nav_item:hover{
+
+.nav_item:hover {
     opacity: 1;
     text-shadow: 1px 1px 1px #000;
 
 }
 
 
-.more_navs{
+.more_navs {
     height: 0px;
     opacity: 0;
     margin-left: -100px;
-    transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000)!important;
+    transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000) !important;
 }
 
 
-.active{
+.active {
     height: 200px;
     opacity: 1;
     margin-left: 0px;
-    transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000)!important;
+    transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000) !important;
 
 }
 

@@ -23,7 +23,7 @@ function Ilmondo() {
   }
 
   return (
-    <Layout title="home">
+    <Layout >
       <motion.div
         className={styles.details}
         initial={{ opacity: 0 }}

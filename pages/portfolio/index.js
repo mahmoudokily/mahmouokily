@@ -3,10 +3,11 @@ import Link from "next/link";
 import Layout from "../../components/layout/Layout";
 import { AiOutlineFolderView } from "react-icons/ai";
 import { motion } from "framer-motion";
-
+import {useEffect} from 'react'
 function Portfolio({ isVisible }) {
+
   return (
-    <Layout title="home">
+    <Layout >
       <motion.div
         className={styles.container}
         initial={{ opacity: 0 }}
