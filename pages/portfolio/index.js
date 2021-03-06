@@ -1,7 +1,7 @@
 import styles from "./Portfolio.module.css";
 import Link from "next/link";
 import Layout from "../../components/layout/Layout";
-import { AiOutlineFolderView } from "react-icons/ai";
+import { AiOutlineFolderView, AiOutlineZoomIn } from "react-icons/ai";
 import { motion } from "framer-motion";
 import {useEffect} from 'react'
 function Portfolio({ isVisible }) {

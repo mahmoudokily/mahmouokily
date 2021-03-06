@@ -1,7 +1,7 @@
 import styles from "../P.module.css";
 
 import { FiExternalLink } from "react-icons/fi";
-import { AiFillGithub,  AiOutlineMobile } from "react-icons/ai";
+import { AiFillGithub, AiOutlineMobile,AiOutlineZoomIn , AiOutlineZoomOut } from "react-icons/ai";
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -99,7 +99,7 @@ function Ilmondo() {
                   <div className={styles.control}>
                       <button onClick={()=> setMob(true)}><AiOutlineMobile /></button>
                       <button onClick={() => setMob(false)}><MdComputer /></button>
-                      <button className={styles.zoom} onClick={zoomMe}> { zoomIn ? "zoom in" : "zoom out"}</button>
+                      <button className={styles.zoom} onClick={zoomMe}> {zoomIn ? <AiOutlineZoomIn /> : <AiOutlineZoomOut/>}</button>
                   </div>
 
         </div>

@@ -1,5 +1,5 @@
 import styles from "../P.module.css";
-import { AiFillGithub, AiOutlineMobile } from "react-icons/ai";
+import { AiFillGithub, AiOutlineMobile,AiOutlineZoomIn , AiOutlineZoomOut } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 import { useState } from "react";
 import Layout from "../../../components/layout/Layout";
@@ -112,10 +112,8 @@ function Amazon() {
             <button onClick={() => setMob(false)}>
               <MdComputer />
             </button>
-            <button className={styles.zoom} onClick={zoomMe}>
-              {" "}
-              {zoomIn ? "zoom in" : "zoom out"}
-            </button>
+            <button className={styles.zoom} onClick={zoomMe}> {zoomIn ? <AiOutlineZoomIn /> : <AiOutlineZoomOut/>}</button>
+
           </div>
         </div>
       </motion.div>

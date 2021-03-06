@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 import Layout from "../../../components/layout/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { AiFillGithub, AiOutlineMobile } from "react-icons/ai";
+import { AiFillGithub, AiOutlineMobile,AiOutlineZoomIn , AiOutlineZoomOut } from "react-icons/ai";
 import { MdComputer } from "react-icons/md";
 import { useState } from "react";
 function Yalpcamp() {
@@ -115,7 +115,7 @@ function Yalpcamp() {
             </button>
             <button className={styles.zoom} onClick={zoomMe}>
               {" "}
-              {zoomIn ? "zoom in" : "zoom out"}
+              {zoomIn ? <AiOutlineZoomIn /> : <AiOutlineZoomOut/>}
             </button>
           </div>
         </div>
