@@ -1,8 +1,4 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {FaInstagram} from 'react-icons/fa'
-import {AiFillFacebook, AiFillTwitterSquare, AiFillGithub} from 'react-icons/ai'
-import {SiGmail} from 'react-icons/si'
 import Layout from "../components/layout/Layout.js";
 import Link from 'next/link'
 import {motion} from "framer-motion";
