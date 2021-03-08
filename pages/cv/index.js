@@ -40,13 +40,13 @@ function Cv() {
                 <ul>
                   <li>
                     <a href="http://www.mahmoudokily.me" target="_blank">
-                      Mahmoudokily.me
+                      www.mahmoudokily.me
                     </a>
                   </li>
                   <li>
                     <a href="mailto:okilymahmoud48@gmail.com">
                       {" "}
-                      Mahmoudokily@gmail
+                      okilymahmoud48@gmail.com
                     </a>
                   </li>
                   <li>

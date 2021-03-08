@@ -1,12 +1,13 @@
-.container{
+.container {
     min-height: 100vh;
     /*grid-template-rows: 100px 1fr 40px;*/
 
 }
-.header{
-    min-height:120px ;
+
+.header {
+    min-height: 120px;
     display: flex;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-content: space-between;
     align-items: center;
     max-width: 70%;
@@ -16,21 +17,25 @@
 
 }
 
-.logo img{
+.logo img {
     width: 50px;
 }
-.nav{
+
+.nav {
     display: flex;
 }
-.nav_item{
-    padding:10px;
+
+.nav_item {
+    padding: 10px;
     cursor: pointer;
 
 }
-.nav_item:hover{
+
+.nav_item:hover {
     color: brown;
     font-weight: 500;
 }
+
 .title {
     text-align: center;
     color: brown;
@@ -40,30 +45,36 @@
     max-width: 60%;
     margin: auto;
 }
-.body{
+
+.body {
     max-width: 60%;
     margin: auto;
     padding: 20px 0px;
 }
-.body_head{
+
+.body_head {
     font-size: 20px;
     padding-bottom: 10px;
 
 }
-.blog_item{
+
+.blog_item {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
 }
-.blog_item_date{
+
+.blog_item_date {
     color: brown;
     padding-bottom: 5px;
 
 }
-.blog_item_title{
+
+.blog_item_title {
     font-size: 18px;
     padding: 5px 0px;
 }
-.blog_item_more{
+
+.blog_item_more {
     display: flex;
     align-items: center;
     align-content: center;
@@ -71,32 +82,36 @@
     cursor: pointer;
 
 }
-.blog_item_more:hover .icon{
+
+.blog_item_more:hover .icon {
     margin-left: 10px;
     color: brown;
     transition: all 200ms ease-in-out;
 
 }
-.icon{
+
+.icon {
     margin-left: 5px;
     font-size: 12px;
     text-align: center;
     align-content: center;
     display: flex;
 }
-.blog_item_more a{
+
+.blog_item_more a {
     width: 150px;
     height: 30px;
     color: brown;
 }
 
 /*email*/
-.email .p{
+.email .p {
     font-size: 22px;
     padding: 20px;
     text-align: center;
 }
-.email button{
+
+.email button {
     width: 200px;
     margin: auto;
     padding: 0;
@@ -115,20 +130,23 @@
     transition: all 500ms ease-in-out;
 
 }
-.email button:hover{
+
+.email button:hover {
     opacity: 1;
     transition: all 500ms ease-in-out;
     font-size: 20px;
 }
-.email button:hover .icon2{
+
+.email button:hover .icon2 {
     opacity: 1;
     width: 60px;
 }
-.email button a{
+
+.email button a {
     flex: 2;
 }
 
-.icon2{
+.icon2 {
     display: flex;
     font-size: 24px;
     background-color: #737373;
@@ -141,11 +159,12 @@
     transition: all 500ms ease-in-out;
 
 }
-.main{
+
+.main {
 
 }
 
-.footer{
+.footer {
     float: end;
     display: flex;
     height: 80px;

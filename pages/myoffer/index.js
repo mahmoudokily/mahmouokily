@@ -1,9 +1,8 @@
 import Layout from "../../components/layout/Layout";
 import styles from './Myoffer.module.css'
-import {CgMail} from 'react-icons/cg'
 import {SiGmail} from 'react-icons/si'
 import {motion} from "framer-motion";
-function Myoffer (){
+export default  function (){
     return (
         <Layout >
             <motion.div className={styles.container}
@@ -77,4 +76,3 @@ function Myoffer (){
     )
 }
 
-export default  Myoffer;
