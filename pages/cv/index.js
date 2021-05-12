@@ -119,22 +119,20 @@ function Cv() {
                   <li>Back-end: JavaScript, node.js, SQL databases,Mangodb</li>
                   <li>
                     Front-end: JavaScript, TypeScript, React (with Hooks),
-                    Redux, next.js
+                    Redux, Next.js , Material ui
                   </li>
                   <li>
                     DevOps: configured and maintained web servers through AWS
-                    CDK, AWS CloudFormation, Ansible, Docker, Chef, SSH.
-                    Knowledge of whole AWS stack and experienced in configuring
-                    it.
+                    CDK, AWS CloudFormation ,Docker,Heroku and other
                   </li>
                   <li>
                     Attentive to UI/UX details and high code quality. Fan of
                     unit tests, functional programming, typed interfaces,
                   </li>
 
-                  <li>
+                  {/* <li>
                     Used to participate in algorithm programming competitions.
-                  </li>
+                  </li> */}
                   <li>Open to evolving in: Java, Python, and many else.</li>
                 </ul>
               </div>
@@ -146,7 +144,7 @@ function Cv() {
               </div>
             </div>
             <ul className={styles.item}>
-              <div className={styles.date}> 2017-2021</div>
+              <div className={styles.date}> 2017-2020</div>
               <li>
                 freelancer
                 <ul className={styles.list_child}>
@@ -173,15 +171,16 @@ function Cv() {
             <ul className={styles.item}>
               <div className={styles.date}>2020-present</div>
               <li>
-                piattaforme di vendita elettronica
+                web developer
                 <ul className={styles.list_child}>
                   <li>
-                    Partecipazione alla costruzione del front-end di una delle
-                    moderne piattaforme di vendita elettronica using react.js
+                    Disruptive Technologies Developer presso YouniteStars SpA
+                    (milano)
                   </li>
                 </ul>
               </li>
             </ul>
+
             <div className={styles.gris_2}>
               <div></div>
               <div>

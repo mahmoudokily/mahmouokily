@@ -5,6 +5,7 @@ export const projects =  [
         desc :"Netflex Is A Web Platform That Allows You To Show A Lot Of Films From Your Devices Such As Mobile Phone , Pc , Tv Online Or Download Them And Watch Latter\n",
         dVedio : "../netflex.gif",
         mVedio :"../netmobile.gif",
+        img:"../nfd1.png",
         futures :[
             "i just used Nextjs to create this website without any libraries (html, css )",
             "All data are automatically renewed according to the latest statistics for countries"
@@ -24,6 +25,8 @@ export const projects =  [
         desc :" yalpcamp is a web platform that allows to book and sell local tours and tourist attractions all over the world.",
         dVedio : "../yalpcampd.gif",
         mVedio :"../yalpcampm.gif",
+        img:"../yalpcampd.png",
+
         futures :[
             " You can search for your favorite place with simple steps and view a lot of its pictures",
             "You can see all the places available in a certain area around the world",
@@ -45,6 +48,8 @@ export const projects =  [
         desc :" Amazon clone is a web platform Similar to the famous Amazon site,through which you can buy and sell all kinds of products and receive them at your favorite location.",
         dVedio : "../amazond.gif",
         mVedio :"../amazonm.gif",
+        img:"../amazon1.png",
+
         futures :[
             " You can search for your favorite place with simple steps and view a lot of its pictures",
             "You can see all the places available in a certain area around the world",
@@ -67,6 +72,8 @@ export const projects =  [
         desc :" ilmondo is a web platform that allows you to know the statistics of your country and alot of other countries .",
         dVedio : "../ilmondog.gif",
         mVedio :"../ilmondom.gif",
+        img:"ilmondod.png",
+
         futures :[
             " You can search for your country and know the statistics such as population , area , Languages , Borders",
             " All data are automatically renewed according to the latest statistics for countries",

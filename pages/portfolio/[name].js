@@ -29,7 +29,7 @@ export default function () {
     }
     return (
         <Layout title={cname || "Mahmoud okily"}>
-            {!project ? <div className={styles.pre_loader}>
+            {!project ? <div className="pre_loader">
                     <img src="../loader.gif" alt=""/>
                 </div> :
                 <motion.div

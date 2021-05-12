@@ -122,7 +122,7 @@ Shows                   they can balance their craft with making business decisi
       </div>
       <div className={styles.related}>
         <div className={styles.head}>Most Recent Articals</div>
-        {blogs.map((blog,i) => (
+        {blogs.map((blog, i) => (
           <div className={styles.related_item} key={i}>
             <div className={styles.related_title}>
               <Link href={`/blog/` + blog.id}>{blog.title}</Link>
