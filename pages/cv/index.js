@@ -20,9 +20,7 @@ function Cv() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2 }}
     >
-      <Head>
-        <title>Mahmoud okily CV</title>
-      </Head>
+      <Head children={<title>Mahmoud okily CV</title>} />
       <div className={styles.cv_body}>
         <div className={styles.cv}>
           <div className={styles.content}>
@@ -33,7 +31,7 @@ function Cv() {
               <div className={styles.title}>
                 <div className={styles.name}>Mahmoud Okily</div>
                 <div className={styles.job}>Full-stack web Developer</div>
-                <div className={styles.job}>Italy, como ,22063</div>
+                <div className={styles.job}>Italy, Milano ,22063</div>
                 <div className={styles.job}>tel : 3332432718</div>
               </div>
               <div className={styles.contact}>
@@ -83,7 +81,6 @@ function Cv() {
                       <AiFillFacebook />
                     </div>
                   </a>
-
                   <a href="mailto:okilymahmoud48@gmail.com" target="_blank">
                     <div>
                       <SiGmail />
@@ -116,20 +113,21 @@ function Cv() {
               <div className={styles.right}>
                 <div className={styles.sec_head}>Skills</div>
                 <ul className={styles.skill_item}>
-                  <li>Back-end: JavaScript, node.js, SQL databases,Mangodb</li>
                   <li>
-                    Front-end: JavaScript, TypeScript, React (with Hooks),
-                    Redux, Next.js , Material ui
+                    Back-end: JavaScript, node.js, postgress , typeorm, Mangodb
                   </li>
                   <li>
-                    DevOps: configured and maintained web servers through AWS
-                    CDK, AWS CloudFormation ,Docker,Heroku and other
+                    Front-end: JavaScript, TypeScript, React (with Hooks),
+                    Redux, Next.js , Material ui, test with cypress
+                  </li>
+                  <li>
+                    DevOps: ClickUp, AWS Services, Docker, Heroku , figma ,
+                    photoshop and other
                   </li>
                   <li>
                     Attentive to UI/UX details and high code quality. Fan of
                     unit tests, functional programming, typed interfaces,
                   </li>
-
                   {/* <li>
                     Used to participate in algorithm programming competitions.
                   </li> */}
@@ -143,6 +141,20 @@ function Cv() {
                 <div className={styles.sec_head}>Experiance</div>
               </div>
             </div>
+            <ul className={styles.item}>
+              <div className={styles.date}> 2020 - now</div>
+              <li>
+                Fornt-end Wep developer
+                <ul className={styles.list_child}>
+                  <li>
+                    Responsible for rebuilding and developing the front end of
+                    an online e-commerce platform using the latest technology
+                    available now like (MaterialUi , React Hooks , Redux
+                    Requests , TypeScript)
+                  </li>
+                </ul>
+              </li>
+            </ul>
             <ul className={styles.item}>
               <div className={styles.date}> 2017-2020</div>
               <li>
@@ -222,9 +234,7 @@ function Cv() {
                   proven experience developing consumer-focused websites using
                   HTML ,CSS and JavaScript.
                 </li>
-                <li>
-                  built products for desktop and mobile app users over 4+ years.
-                </li>
+                <li>built products for desktop users over 5+ years.</li>
                 <li>
                   meeting highest standards for web design , user experience ,
                   best practices and speed.
