@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../../components/layout/Layout";
 import { AiOutlineFolderView } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { projects } from "./[name]";
 
 function Portfolio() {
   const projectItemm = function () {
