@@ -12,7 +12,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { MdComputer } from "react-icons/md";
 import { useState, useEffect } from "react";
-import { projects } from "./projects";
+import projects from "./projects";
 import zoom from "./zoom";
 
 export default function () {
