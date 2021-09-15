@@ -31,7 +31,7 @@ function Cv() {
               <div className={styles.title}>
                 <div className={styles.name}>Mahmoud Okily</div>
                 <div className={styles.job}>Full-stack web Developer</div>
-                <div className={styles.job}>Italy, Milano ,22063</div>
+                <div className={styles.job}>Italy, Milano ,20155</div>
                 <div className={styles.job}>tel : 3332432718</div>
               </div>
               <div className={styles.contact}>
