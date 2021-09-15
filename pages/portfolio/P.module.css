@@ -1,183 +1,162 @@
-
-.details  {
-    padding: 30px;
+.details {
+  padding: 30px;
 }
 
 .h1 {
-    font-size: 30px;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    padding-bottom: 20px;
-    text-transform: capitalize;
-
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .p {
-    color: #737373;
+  color: #737373;
 }
 
 .tecno {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .tecno_body {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .tecno_body li {
-    background: white!important;
-    text-align: center;
-    padding: 10px;
-    color: brown!important;
-    margin: 5px!important;
-    display: block;
-    opacity: .8;
-    transition: all 500ms;
-    cursor: pointer;
+  background: white !important;
+  text-align: center;
+  padding: 10px;
+  color: brown !important;
+  margin: 5px !important;
+  display: block;
+  opacity: 0.8;
+  transition: all 500ms;
+  cursor: pointer;
 }
 
-
 .tecno_body li:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .project_desc {
-    list-style: circle;
-    padding: 20px;
-    color: #737373;
-
+  list-style: circle;
+  padding: 20px;
+  color: #737373;
 }
 
 .project_desc li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 .p_bold {
-    font-weight: bolder;
-    padding-top: 10px;
-    font-size: 18px;
-    text-transform: capitalize;
+  font-weight: bolder;
+  padding-top: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 
 .more {
-    display: flex;
-
+  display: flex;
 }
 
 .more a:hover {
-    color: #4a4a4f;
-    opacity: 1;
+  color: #4a4a4f;
+  opacity: 1;
 }
 
 .images {
-    width: 100%;
-    border-top: 1px solid #eee;
-
+  width: 100%;
+  border-top: 1px solid #eee;
 }
-.full_img img{
-    padding: 0%;
-    margin: 0;
-    height: 450px;
-    width: 100%;
-    transition: all 1s ease-in;
-}
-
-.control{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.control button{
-    padding: 5px 10px;
-    min-width: 150px;
-    margin:0px 2px;
-    font-size: 20px;
-    color : black;
-    cursor: pointer;
+.full_img img {
+  padding: 0%;
+  margin: 0;
+  height: 450px;
+  width: 100%;
+  transition: all 1s ease-in;
 }
 
-
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control button {
+  padding: 5px 10px;
+  min-width: 150px;
+  margin: 0px 2px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
 
 .icon {
-    font-size: 25px;
-    padding: 0 10px;
-    margin: 0px;
+  font-size: 25px;
+  padding: 0 10px;
+  margin: 0px;
 }
 
 .a {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    color: brown;
-    opacity: .8;
-    cursor: pointer;
-    transition: all 500ms;
-
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: brown;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 500ms;
 }
 
 .grid_2 {
-    padding-top: 20px;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+  padding-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .mobile_head {
-    font-size: 20px;
-    padding: 20px;
-    border-bottom: 1px solid #eee;
-    max-width: 50%;
-    color: brown;
-    font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  max-width: 50%;
+  color: brown;
+  font-weight: bolder;
 }
 
 .tecno_body li {
-    padding: 10px;
-    color: aliceblue;
-    background-color: brown;
-    margin: 0 5px;
-    opacity: .8;
-    transition: all 500ms;
-    cursor: pointer;
-
-
+  padding: 10px;
+  color: aliceblue;
+  background-color: brown;
+  margin: 0 5px;
+  opacity: 0.8;
+  transition: all 500ms;
+  cursor: pointer;
 }
 
 .tecno_body li:hover {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 .alert {
-    color: brown;
-    opacity: .7;
-    padding: 10px 0px;
+  color: brown;
+  opacity: 0.7;
+  padding: 10px 0px;
 }
-
 
 @media screen and (max-width: 720px) {
+  .images {
+    max-width: 100%;
+  }
 
-    .images {
-        max-width: 100%;
-    }
+  .grid_2 {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
 
-    .grid_2 {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-    }
-
-    .grid_2 img {
-        width: 100%;
-    }
-    .full_img img{
-        max-height: 450px;
-    }
-    .zoom{
-        display: none;
-    }
+  .grid_2 img {
+    width: 100%;
+  }
+  .full_img img {
+    max-height: 450px;
+  }
 }
-
-
-

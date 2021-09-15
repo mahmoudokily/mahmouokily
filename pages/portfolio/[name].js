@@ -1,19 +1,13 @@
 import styles from "./P.module.css";
 import { useRouter } from "next/router";
 import { FiExternalLink } from "react-icons/fi";
-import {
-  AiFillGithub,
-  AiOutlineMobile,
-  AiOutlineZoomIn,
-  AiOutlineZoomOut,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineMobile } from "react-icons/ai";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { MdComputer } from "react-icons/md";
 import { useState, useEffect } from "react";
 
-// import zoom from "./zoom";
 export const projects = [
   {
     name: "Senso",
@@ -100,7 +94,7 @@ export default function () {
   const router = useRouter();
   const [mob, setMob] = useState(false);
   const [project, setProject] = useState("");
-  const [zoomIn, setZoomIn] = useState(true);
+
   const cname = router.query.name;
 
   useEffect(() => {
@@ -180,17 +174,6 @@ export default function () {
               <button onClick={() => setMob(false)}>
                 <MdComputer />
               </button>
-              {/* <button
-                className={styles.zoom}
-                onClick={zoom(
-                  zoomIn,
-                  setZoomIn,
-                  mob ? project.mVedio : project.dVedio
-                )}
-              >
-                {" "}
-                {zoomIn ? <AiOutlineZoomIn /> : <AiOutlineZoomOut />}
-              </button> */}
             </div>
           </div>
         </motion.div>
