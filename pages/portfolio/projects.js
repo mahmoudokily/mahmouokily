@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     name: "Senso",
     shortDesc: "An e-commerce site for selling mobiles ",
@@ -79,3 +79,5 @@ export const projects = [
     githupLink: "https://github.com/heshamalamam73/ilmondo",
   },
 ];
+
+export default projects;
