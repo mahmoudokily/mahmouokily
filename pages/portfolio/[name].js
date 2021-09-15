@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 import { MdComputer } from "react-icons/md";
 import { useState, useEffect } from "react";
 
-import zoom from "./zoom";
+// import zoom from "./zoom";
 export const projects = [
   {
     name: "Senso",
@@ -180,7 +180,7 @@ export default function () {
               <button onClick={() => setMob(false)}>
                 <MdComputer />
               </button>
-              <button
+              {/* <button
                 className={styles.zoom}
                 onClick={zoom(
                   zoomIn,
@@ -190,7 +190,7 @@ export default function () {
               >
                 {" "}
                 {zoomIn ? <AiOutlineZoomIn /> : <AiOutlineZoomOut />}
-              </button>
+              </button> */}
             </div>
           </div>
         </motion.div>
