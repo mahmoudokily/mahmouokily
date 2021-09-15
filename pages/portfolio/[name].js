@@ -108,11 +108,6 @@ export default function () {
     setProject(currentProject);
   });
 
-  //zoom video func
-  function zoomMe() {
-    const img = document.getElementById("img");
-    zoom(zoomIn, setZoomIn, img);
-  }
   return (
     <Layout title={`${cname || "Mahmoud okily"}  `}>
       {!project ? (
@@ -185,7 +180,14 @@ export default function () {
               <button onClick={() => setMob(false)}>
                 <MdComputer />
               </button>
-              <button className={styles.zoom} onClick={zoomMe}>
+              <button
+                className={styles.zoom}
+                onClick={zoom(
+                  zoomIn,
+                  setZoomIn,
+                  mob ? project.mVedio : project.dVedio
+                )}
+              >
                 {" "}
                 {zoomIn ? <AiOutlineZoomIn /> : <AiOutlineZoomOut />}
               </button>
