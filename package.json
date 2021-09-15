@@ -1,0 +1,23 @@
+{
+  "name": "my2021",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.17.5"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
