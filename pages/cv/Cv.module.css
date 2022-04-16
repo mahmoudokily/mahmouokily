@@ -1,256 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/** @format */
 
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 .container {
-    background-color: #c1c1c1;
-    min-height: 100vh;
-    position: relative;
-    height: auto;
-    justify-content: center;
-    font-family: 'Josefin Slab', serif;
-
-
+  background-color: #c1c1c1;
+  min-height: 100vh;
+  position: relative;
+  height: auto;
+  justify-content: center;
+  font-family: "Josefin Slab", serif;
+  position: relative;
 }
 
 .cv {
-    margin: auto auto;
-    background-color: white;
-    max-width: 842px;
-    min-height: 100vh;
-    padding: 30px 0px;
-
-
+  margin: auto auto;
+  background-color: white;
+  max-width: 842px;
+  min-height: 100vh;
+  padding: 30px 0px;
 }
 
 .grid_3 {
-    padding: 40px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-gap: 10px;
-    align-items: flex-start;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  align-items: flex-start;
 }
 
 .img {
-    padding: 10px;
-    max-width: 160px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-
+  padding: 10px;
+  max-width: 160px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .img img {
-    width: 100%;
-    border-radius: 3px;
+  width: 100%;
+  border-radius: 3px;
 }
 
 .name {
-    font-size: 25px;
-    padding-top: 10px;
-    color: brown;
-    font-weight: 500;
-
+  font-size: 25px;
+  padding-top: 10px;
+  color: brown;
+  font-weight: 500;
 }
 
 .job {
-    padding-top: 5px;
-    color: #737373;
-
+  padding-top: 5px;
+  color: #737373;
 }
 
 .contact {
-    color: brown;
-    padding-top: 5px;
-    text-align: left;
-
+  color: brown;
+  padding-top: 5px;
+  text-align: left;
 }
 
 .contact ul {
-    list-style: none;
-
-
+  list-style: none;
 }
 
 .contact ul li a {
-    padding: 3px;
-    display: flex;
-    text-transform: capitalize;
-
-
+  padding: 3px;
+  display: flex;
+  text-transform: capitalize;
 }
 
 .contact ul li a:hover {
-    text-decoration: underline;
-
+  text-decoration: underline;
 }
 
 .skills {
-    display: grid;
-    grid-template-columns: 3fr 8fr;
+  display: grid;
+  grid-template-columns: 3fr 8fr;
 }
 
 .skills_body {
-    grid-column: 2/3;
+  grid-column: 2/3;
 }
 
 .parent {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .date {
-    text-align: right;
-    padding: 5px 20px;
-    color: #737373;
-
-
+  text-align: right;
+  padding: 5px 20px;
+  color: #737373;
 }
 
 .right ul {
-    list-style: circle;
-    padding: 10px;
+  list-style: circle;
+  padding: 10px;
 }
 
 .right ul li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
-
 .sec_head {
-    color: brown;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 10px 0;
-
+  color: brown;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 0;
 }
 
 .gris_2 {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-
+  display: grid;
+  grid-template-columns: 2fr 5fr;
 }
 
 .skill_item {
-    max-width: 90%;
-    list-style: circle;
+  max-width: 90%;
+  list-style: circle;
 }
 
 .item {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-    grid-column: 1/2;
-    list-style: circle;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-column: 1/2;
+  list-style: circle;
 }
 
 .item li {
-    padding: 5px 0;
-    font-weight: 400;
-    font-size: 18px;
+  padding: 5px 0;
+  font-weight: 400;
+  font-size: 18px;
 }
 
-
 .social {
-    height: 40px;
-    text-align: center;
-    margin: auto;
-    border-bottom: 1px solid #eeeeee;
-    padding: 0px 20px;
-    display: none;
-    align-items: center;
-    align-content: center;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0px 20px;
+  display: none;
+  align-items: center;
+  align-content: center;
 }
 
 .social_body {
-    display: flex;
-    color: aliceblue;
-    align-items: center;
+  display: flex;
+  color: aliceblue;
+  align-items: center;
 }
 
 .social_body a {
-    font-size: 20px;
-    padding: 0px 5px;
-    color: brown;
+  font-size: 20px;
+  padding: 0px 5px;
+  color: brown;
 }
 
 .sign {
-    text-align: right;
-    display: flex;
-    width: 100%;
-    text-align: right;
-    margin: 40px;
-    padding-left: 300px;
-
+  text-align: right;
+  display: flex;
+  width: 100%;
+  text-align: right;
+  margin: 40px;
+  padding-left: 300px;
 }
 
 .sign_text {
-    text-align: center;
-    margin: auto;
-    max-width: 400px;
-
+  text-align: center;
+  margin: auto;
+  max-width: 400px;
 }
 
 .firma {
-    font-family: 'Pacifico', cursive !important;
+  font-family: "Pacifico", cursive !important;
 }
 
 .list_child {
-    max-width: 70%;
-    list-style: disc;
-    padding-left: 10px;
-    font-weight: 100;
+  max-width: 70%;
+  list-style: disc;
+  padding-left: 10px;
+  font-weight: 100;
 }
 
 .list_child li {
-    font-size: 10px;
-
+  font-size: 10px;
 }
-
 
 @page {
-    background: white;
-    width: 21cm;
-    height: 29.7cm;
-    display: block;
-    margin: 2cm;
-    padding: 2cm;
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 2cm;
+  padding: 2cm;
 }
 
+@media screen and (max-width: 720px) {
+  .grid_3 {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
 
-@media screen  and (max-width: 720px) {
-    .grid_3 {
-        grid-template-columns: 1fr;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-    }
+  .contact {
+    text-align: center;
+    display: none;
+  }
 
-    .contact {
-        text-align: center;
-        display: none;
-    }
+  .gris_2 {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 
-    .gris_2 {
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
+  .social {
+    display: flex;
+  }
 
-    .social {
-        display: flex;
-    }
+  .item {
+    grid-template-columns: 1fr;
+    padding: 5px 30px;
+  }
 
-    .item {
-        grid-template-columns: 1fr;
-        padding: 5px 30px;
-
-    }
-
-    .date {
-        text-align: left;
-        padding: 0;
-    }
-
-
+  .date {
+    text-align: left;
+    padding: 0;
+  }
 }

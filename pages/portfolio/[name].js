@@ -1,3 +1,5 @@
+/** @format */
+
 import styles from "./P.module.css";
 import { useRouter } from "next/router";
 import { FiExternalLink } from "react-icons/fi";
@@ -10,7 +12,7 @@ import { useState, useEffect } from "react";
 
 export const projects = [
   {
-    name: "Senso",
+    name: "senso",
     shortDesc: "An e-commerce site for selling mobiles ",
     desc: "An e-commerce site for selling mobiles built by Shopify using the languages (html, css, liquid) many features have been added using the JavaScript language",
     dVedio: "../sensod1.png",

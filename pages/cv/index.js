@@ -1,4 +1,9 @@
+/** @format */
+
 import styles from "./Cv.module.css";
+import * as React from "react";
+
+import { useState } from "react";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import {
@@ -8,25 +13,50 @@ import {
   AiFillTwitterSquare,
   AiOutlineMenu,
 } from "react-icons/ai";
+// import printJS from "print-js";
+
 import { SiGmail } from "react-icons/si";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import Layout from "../../components/layout/Layout";
-function Cv() {
+const Cv = () => {
+  const print = () => {
+    if (typeof window !== "undefined") {
+      const printJS = require("print-js");
+      printJS("cv-body", "html", true);
+    }
+  };
+
   return (
     <motion.div
       className={styles.container}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2 }}
+      id="cv-body"
     >
       <Head children={<title>Mahmoud okily CV</title>} />
+      {/* //FIXME add print button func */}
+      {/* <div
+        style={{
+          position: "sticky",
+          top: 0,
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
+          marginBottom: 40,
+        }}
+      >
+        <button style={{ padding: 10, margin: 10 }} onClick={print}>
+          Download CV
+        </button>
+      </div> */}
       <div className={styles.cv_body}>
         <div className={styles.cv}>
           <div className={styles.content}>
             <div className={styles.grid_3}>
               <div className={styles.img}>
-                <img src="me2.jpg" alt="" />
+                <img src="me2.jpg" alt="mahmoud okily" />
               </div>
               <div className={styles.title}>
                 <div className={styles.name}>Mahmoud Okily</div>
@@ -52,12 +82,12 @@ function Cv() {
                       href="https://www.linkedin.com/in/mahmoud-okily-3ab3a7b6/"
                       target="_blank"
                     >
-                      Mahmoudokily@linkdin
+                      https://www.linkedin.com/in/mahmoud-okily-3ab3a7b6/
                     </a>
                   </li>
                   <li>
                     <a href="https://github.com/heshamalamam73" target="_blank">
-                      Mahmoudokily@github
+                      https://github.com/heshamalamam73
                     </a>
                   </li>
                 </ul>
@@ -114,11 +144,13 @@ function Cv() {
                 <div className={styles.sec_head}>Skills</div>
                 <ul className={styles.skill_item}>
                   <li>
-                    Back-end: JavaScript, node.js, postgress , typeorm, Mangodb
+                    Back-end: JavaScript, node.js(expressjs), postgress ,
+                    typeorm, Mangodb
                   </li>
                   <li>
                     Front-end: JavaScript, TypeScript, React (with Hooks),
-                    Redux, Next.js , Material ui, test with cypress
+                    Redux, Next.js , Material ui, test with cypress,
+                    Solidity,web3js, Etherium ,
                   </li>
                   <li>
                     DevOps: ClickUp, AWS Services, Docker, Heroku , figma ,
@@ -142,15 +174,30 @@ function Cv() {
               </div>
             </div>
             <ul className={styles.item}>
-              <div className={styles.date}> 2020 - now</div>
+              <div className={styles.date}> 2022 - now</div>
               <li>
-                Fornt-end Wep developer
+                front-end Wep developer - Reasoned art (reasonedart.com)
+                <ul className={styles.list_child}>
+                  <li>
+                    Reasoned Art is a website for selling encrypted digital
+                    graphics(NFT) with the possibility of paying via digital
+                    currencies like blockchain , i participate with p.iva as
+                    front-end developer To solve site problems, improve user
+                    experience and add more features
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul className={styles.item}>
+              <div className={styles.date}> 2021 - now</div>
+              <li>
+                full-Stack Wep developer - YouniteStars (senso.it)
                 <ul className={styles.list_child}>
                   <li>
                     Responsible for rebuilding and developing the front end of
                     an online e-commerce platform using the latest technology
-                    available now like (MaterialUi , React Hooks , Redux
-                    Requests , TypeScript)
+                    available now like (styledComponent,styled System, React
+                    Hooks , Redux Requests , TypeScript )
                   </li>
                 </ul>
               </li>
@@ -158,7 +205,7 @@ function Cv() {
             <ul className={styles.item}>
               <div className={styles.date}> 2017-2020</div>
               <li>
-                freelancer
+                full-stack web developer freelancer
                 <ul className={styles.list_child}>
                   <li>
                     Designed dynamic and browser compatible pages using HTML5,
@@ -176,18 +223,6 @@ function Cv() {
                   <li>
                     Designing frontend within object-oriented Javascript
                     frameworks like react.Js and next.Js.
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul className={styles.item}>
-              <div className={styles.date}>2020-present</div>
-              <li>
-                web developer
-                <ul className={styles.list_child}>
-                  <li>
-                    Disruptive Technologies Developer presso YouniteStars SpA
-                    (milano)
                   </li>
                 </ul>
               </li>
@@ -234,7 +269,6 @@ function Cv() {
                   proven experience developing consumer-focused websites using
                   HTML ,CSS and JavaScript.
                 </li>
-                <li>built products for desktop users over 5+ years.</li>
                 <li>
                   meeting highest standards for web design , user experience ,
                   best practices and speed.
@@ -281,6 +315,6 @@ function Cv() {
       </div>
     </motion.div>
   );
-}
+};
 
 export default Cv;
