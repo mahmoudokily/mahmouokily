@@ -66,11 +66,11 @@ const Cv = () => {
               </div>
               <div className={styles.contact}>
                 <ul>
-                  <li>
+                  {/* <li>
                     <a href="http://www.mahmoudokily.me" target="_blank">
                       www.mahmoudokily.me
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="mailto:okilymahmoud48@gmail.com">
                       {" "}
@@ -144,26 +144,55 @@ const Cv = () => {
                 <div className={styles.sec_head}>Skills</div>
                 <ul className={styles.skill_item}>
                   <li>
-                    Back-end: JavaScript, node.js(expressjs), postgress ,
-                    typeorm, Mangodb
+                    <span className={styles.exTitle}>
+                      Front-end Technologies:
+                    </span>
+                    HTML, CSS , SASS , JavaScript & JQuery & TypeScript &
+                    ReactJS & ReduxJS & NextJS & Material UI & Solidity & Web3js
+                    & Ethereum & Storybook & Styled-components & BootStrap &
+                    Tailwind CSS
                   </li>
                   <li>
-                    Front-end: JavaScript, TypeScript, React (with Hooks),
-                    Redux, Next.js , Material ui, test with cypress,
-                    Solidity,web3js, Etherium ,
+                    <span className={styles.exTitle}>
+                      Back-end Technologies:
+                    </span>
+                    JavaScript & NodeJS & PostgreSQL & TypeORM & MongoDB
+                  </li>
+
+                  <li>
+                    <span className={styles.exTitle}> DevOps:</span>
+                    Aws Services( S3 . Amplify , Lambda , Cognito), Docker,
+                    Heroku , Figma , Photoshop , BabelJS, webpack , LernaJS, and
+                    other
                   </li>
                   <li>
-                    DevOps: ClickUp, AWS Services, Docker, Heroku , figma ,
-                    photoshop and other
+                    <span className={styles.exTitle}>Programming methods:</span>
+                    <ul>
+                      <li>
+                        Principles and procedures for code quality and
+                        testability (clean code, debugging,typed interfaces .)
+                      </li>
+                      <li>
+                        Communication between pieces of software (REST API,
+                        JSON,GraphQL.)
+                      </li>
+                      <li>Version control (git, Github .)</li>
+                      <li>
+                        Development methodology, management tools (Agile, Scrum,
+                        clickUp.)
+                      </li>
+                      <li>Testing ( Jest, cypress .)</li>
+                      <li>
+                        Professional knowledge, soft skills ( communication
+                        skills, ability to work independently , Attentive to
+                        UI/UX details .)
+                      </li>
+                    </ul>
                   </li>
-                  <li>
-                    Attentive to UI/UX details and high code quality. Fan of
-                    unit tests, functional programming, typed interfaces,
+
+                  <li className={styles.Warning}>
+                    Open to evolving in: Angular, Java, Python, and many else.
                   </li>
-                  {/* <li>
-                    Used to participate in algorithm programming competitions.
-                  </li> */}
-                  <li>Open to evolving in: Java, Python, and many else.</li>
                 </ul>
               </div>
             </div>
@@ -174,16 +203,22 @@ const Cv = () => {
               </div>
             </div>
             <ul className={styles.item}>
-              <div className={styles.date}> 2022 - now</div>
+              <div className={styles.date}> 01/2022 - 07/2022</div>
               <li>
-                front-end Wep developer - Reasoned art (reasonedart.com)
+                Senior Frontend Web Developer - Reasoned art (reasonedart.com)
                 <ul className={styles.list_child}>
                   <li>
                     Reasoned Art is a website for selling encrypted digital
                     graphics(NFT) with the possibility of paying via digital
                     currencies like blockchain , i participate with p.iva as
-                    front-end developer To solve site problems, improve user
-                    experience and add more features
+                    Senior Frontend developer To solve site problems, improve
+                    user experience and add more features,improve the quality of
+                    the code. And create many reusable components .
+                    <span className={styles.red}>Technology used:</span>
+                    <span>
+                      GraphQL , amplify , AWS S3 , NextJS , Tailwind CSS
+                      ,TypeScript
+                    </span>
                   </li>
                 </ul>
               </li>
@@ -191,13 +226,24 @@ const Cv = () => {
             <ul className={styles.item}>
               <div className={styles.date}> 2021 - now</div>
               <li>
-                full-Stack Wep developer - YouniteStars (senso.it)
+                Senior fullstack Web Developer - YouniteStars (senso.it)
                 <ul className={styles.list_child}>
                   <li>
-                    Responsible for rebuilding and developing the front end of
-                    an online e-commerce platform using the latest technology
-                    available now like (styledComponent,styled System, React
-                    Hooks , Redux Requests , TypeScript )
+                    Responsible for maintaining and updating a large internal
+                    web platform that is used within all company departments
+                    such as customer service and pre- and after-sales services
+                    <span className={styles.red}>Technology used:</span>
+                    <span>
+                      2021 - We have used JavaScript,React, Redux , S3 ,Material
+                      UI
+                    </span>
+                    <span style={{ display: "block", marginTop: 10 }}>
+                      2022 - We have rewritten the project using typescript &&
+                      We have built our own front-end design and programming
+                      library using : styled-components , styled-system , npm
+                      package , lernaJs ,npm packages, redux requests , redux
+                      saga , redux toolkit, git actions, storybook
+                    </span>
                   </li>
                 </ul>
               </li>
@@ -205,7 +251,7 @@ const Cv = () => {
             <ul className={styles.item}>
               <div className={styles.date}> 2017-2020</div>
               <li>
-                full-stack web developer freelancer
+                Fullstack web developer Freelancer
                 <ul className={styles.list_child}>
                   <li>
                     Designed dynamic and browser compatible pages using HTML5,
@@ -237,18 +283,22 @@ const Cv = () => {
             <ul className={styles.item}>
               <div className={styles.date}>
                 <span>
-                  Assuit university <br />
+                  Egypt <br />
                 </span>
                 2012-2016
               </div>
-              <li>faculty of commerce</li>
+              <li>Faculty of Commerce and Business Administration</li>
               <div className={styles.date}>
                 <span>
-                  self study <br />
+                  Italy
+                  <br />
                 </span>
                 2016-2021
               </div>
-              <li>online courses </li>
+              <li>
+                {""} Online and offline courses in computer science and
+                programming{" "}
+              </li>
             </ul>
             <div className={styles.gris_2}>
               <div></div>

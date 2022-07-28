@@ -11,7 +11,13 @@
   font-family: "Josefin Slab", serif;
   position: relative;
 }
-
+.exTitle {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-right: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
 .cv {
   margin: auto auto;
   background-color: white;
@@ -47,6 +53,17 @@
   padding-top: 10px;
   color: brown;
   font-weight: 500;
+}
+.Warning {
+  list-style: none;
+
+  font-weight: bold;
+  font-style: italic;
+}
+.red {
+  color: brown;
+  display: block;
+  padding: 5px 0px;
 }
 
 .job {
@@ -116,7 +133,13 @@
 
 .skill_item {
   max-width: 90%;
-  list-style: circle;
+  list-style: decimal-leading-zero;
+  line-height: 1.5;
+}
+.skill_item ul li {
+  padding: 0;
+  margin: 0;
+  list-style: square;
 }
 
 .item {
@@ -129,7 +152,7 @@
 .item li {
   padding: 5px 0;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .social {
@@ -175,14 +198,14 @@
 }
 
 .list_child {
-  max-width: 70%;
+  max-width: 90%;
   list-style: disc;
   padding-left: 10px;
   font-weight: 100;
 }
 
 .list_child li {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 @page {
