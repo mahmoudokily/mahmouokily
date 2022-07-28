@@ -179,7 +179,7 @@ const Cv = () => {
                       <li>Version control (git, Github .)</li>
                       <li>
                         Development methodology, management tools (Agile, Scrum,
-                        clickUp.)
+                        clickUp.Jira)
                       </li>
                       <li>Testing ( Jest, cypress .)</li>
                       <li>
