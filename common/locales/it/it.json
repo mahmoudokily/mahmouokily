@@ -1,0 +1,617 @@
+{
+  "welcome": "Benvenuto",
+  "hello, i'm Okily": "Ciao , Io sono Okily",
+  "a full-stack Javascript web developer": "uno sviluppatore web Javascript completo",
+  "portfolio": "portafoglio",
+  "my offers": "le mie offerte",
+  "signin": "Sign In",
+  "signup": "Join",
+  "joinus": "Join us",
+  "join": "Join",
+  "login": "Login",
+  "home": {
+    "slide1": {
+      "title": "A True Art Gallery\nin the #NFT Space",
+      "subtitle": "Treating CryptoArt the way it should be treated:",
+      "subtitle2": "as a real",
+      "decoration": "art movement."
+    },
+    "slide2": {
+      "make_an_offer": "Make an offer",
+      "meet_artist": "Meet the artist"
+    },
+
+    "slide4": {
+      "title": "A bridge between the Traditional Art\nWorld and the emerging\nCryptoart Ecosystem",
+
+      "block1": {
+        "text": "We select the best digital artists, organise and curate physical and digital exhibitions, and produce editorial and critical content through the expertise and passion of our curators.",
+        "title": "Artists"
+      },
+      "block2": {
+        "text": "It solves the following problems:\n• TRACEABILITY and TRANSPARENCY of transactions\n• HISTORY and PRICING of an artwork\n• ROYALTIES for artists on the secondary market",
+        "title": "Blockchain"
+      },
+      "block3": {
+        "text": "It allows you to guarantee:\n• UNIQUENESS and RARITY of a digital artwork\n• Digital art COLLECTING",
+        "title": "NFTs"
+      }
+    },
+    "slide5": {
+      "title": "New entries",
+      "block1": "Ouchhh",
+      "block2": "Joe Karava",
+      "block3": "3DD Factory"
+    },
+    "slide6": {
+      "title": "Are you a digital creator?",
+      "subtitle": "You’re in the right place. Join our amazing community and start displaying your art on our platform.",
+      "button": "Apply now"
+    },
+    "slide7": { "title": "About us" },
+    "slide8": { "title": "Our partners" }
+  },
+
+  "identity": {
+    "nav": "Manifesto",
+    "title": "Post-contemporary Manifesto",
+    "description": "Today, the need to obtain what we want comes before the desire itself: we live in the here and now, in the all and now and in the era of the blue tick. \n\n We need to rediscover the ability to think in the long term, to think of a human project, initially in terms of ethics and culture and then in terms of politics and economics, which can outline the characteristics of a new type of society. \n\n This society can unite the liberal meta-project in favor of individual projects with a guiding framework on the kind of society we would like to build together and the social meaning of living together as a community. \n\n We should not be subjected to technological progress but manage it according to participatory and conscious governance of innovation in order to solve the massive cultural, social, environmental, and economic issues. \n\n The Internet has gone from being a tool of freedom to a tool of surveillance, with our data as the end product. \n\n To reverse this alarming trend, we have decentralized and opened up the network that allows us to restore autonomy, privacy, and security.\n\n Our way of life is changing, and so are the cities we live in: they are becoming green, digital, responsive, and placing technology at the service of man.  \n\n In this context, art plays a key role in the rebirth of our society. \n\n Thanks to it, three key characteristics can be fostered: sociability, activity, and \n\n Art is a kind of training ground in which individuals and communities can experiment and search for their own authenticity and global perspective.\n\n The function of art is to be a mouthpiece for change, intercepting the future and outlining innovative trajectories and scenarios in such a way as to foreshadow a new vision of the world to be incorporated into the present to act in a conscious and participatory manner towards the design of a better future.  \n\n Art must be like an enzyme that activates innovative processes and contaminates our lives. \n\n In such a delicate historical moment like the one we are living in, there is need for a cultural revolution to bring about human evolution.",
+    "subtitle": "The historical moment in which we live confronts us with the need to investigate the potential and critical aspects of the use of new technologies, so as not to be subjected to them and instead give life to a conscious and participatory 'governance of innovation'. Reasoned Art was created with this aim in mind: to propose an innovative vision of the present through art's ability to intercept the future.",
+    "manifest": "Manifesto",
+    "download_text": "You can  also see the manifesto of Reasoned Art on GitHub or download it here:",
+    "download": "Download manifesto",
+    "curator_title": "Curator Board Reasoned Art",
+    "curator_subtitle": "Our technical committee made up of leading experts from the S+T+ARTS world",
+    "team_title": "Team Reasoned Art",
+    "team_subtitle": "Our operational team is young, multidisciplinary and wants to build a better world",
+    "team_question": "Would you like to learn more about us?",
+    "team_discover": "Discover people working in Reasoned Art",
+    "find_out_more": "Visit our dedicated section",
+    "manifesto_github": [
+      "Read this Manifesto on ",
+      "GitHub",
+      " or download it here:"
+    ]
+  },
+
+  "artists": {
+    "nav": "Artists",
+    "title": "Artists",
+    "set_to": "Set to",
+    "filters": "Filters",
+    "categories": "Categories",
+    "clear": "Clear",
+    "apply": "Apply",
+    "add_artist": "Add Artist"
+  },
+
+  "marketplace": {
+    "nav": "Marketplace",
+    "running_auction": "ASTA IN CORSO",
+    "current_auction": "Current Auction",
+    "bidders_history": "History of current auction",
+    "current_offer": "CURRENT OFFER: ",
+    "price": "PRICE: ",
+    "secondary_market": "Take a look to the Secondary Market",
+    "secondary_market_sub": "Discover our available NFTs",
+    "add_artwork": "Add Artwork"
+  },
+
+  "opera": {
+    "buyNFTWithFiat": "Buy with EUR",
+    "buyNFTWithMATIC": "Buy with MATIC",
+    "nftNotOnSale": "Not on Sale",
+    "firstFiatCondition": "Create wallet to pay with EUR",
+    "secondFiatCondition": "Create wallet bellow to pay with EUR",
+    "questions": "Do you have any questions?",
+    "contact": "Contact a specialist here!"
+  },
+
+  "events": {
+    "nav": "Events",
+    "when": "JUNE 10 2021",
+    "where": "MILAN, CIVIC BRERA AND 30 DIGITAL SCREENS AT NEWSSTANDS",
+    "what_sub": "The first Decentralised and\nDistributed Cryptoart exhibition in Italy",
+    "title_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nibh lectus sagittis ridiculus vel sodales enim ornare turpis. Sed vulputate dis aliquet sit morbi nisi amet at viverra. Pulvinar sem egestas feugiat etiam. Ridiculus vel sodales enim ornare turpis. Sed vulputate dis aliquet sit morbi nisi amet at viverra. Pulvinar sem egestas feugiat etiam. ",
+    "question": "Discover “Name”, the artist of\n“Name” atworks",
+    "question_sub": "Are you curious about Nome?\nDiscover more on the artist page",
+    "artwork_event": "Artwor of the event",
+    "event_title": "Lorem ipsum dolor sit amet, consectetur.",
+    "event_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem consectetur amet facilisis vitae.",
+    "discover_artwork": "Discover artwork",
+    "last_events": "Last events",
+    "curious": "Are you curious about what we have done?",
+    "look_past": "Take a look at the selection of events we attended, in order to give value to art through technology.",
+    "next_events": "Next events",
+    "discover_program": "Discover what we have in program.",
+    "look_future": "Have a look at our timeline of the next upcoming events to never miss out new incredible experiences.",
+    "about_the_event": "About the event...",
+    "discover_artworks": "Discover the artworks related to the event",
+    "visit_sec_market": "Visit the secondary market, on the Marketplace page now",
+    "marketplace": "Marketplace",
+    "the_event": "The Event"
+  },
+
+  "privacy": {
+    "title": "Privacy policy",
+    "download": "You can also download the document.",
+    "download_button": "Download Privacy policy"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "download": "Download Terms and Conditions",
+    "slide": {
+      "title1": "Applicability of the Terms and Conditions",
+      "text1": "These Terms and Conditions form a legally binding agreement (the 'Agreement') between  Art company benefit srl (' Art' or 'We') and the User ('You'). These Terms and Conditions govern the access and use of the website and the Blockchain  Art Platform, including any pages and domains within the website, applications for smartphones, tablets and other devices, application interfaces (together referred to as ' Platform ') and all associated services offered through the Platform (collectively referred to as the ' Service '). We will refer to the Platform and the Service as 'Online Site'. Any (legal) term and concept used in these Terms and Conditions must in any case be interpreted in accordance with Italian law.",
+      "title2": "Scope of the service",
+      "title3": "Privacy",
+      "text3": "The protection of personal information is very important  Art. The User can consult the Privacy Policy to find out how his personal information is processed. By using the online Site, the User consents to the use of his information for the purposes established in the Privacy Policy.\nTo allow you to fulfill the obligations deriving from a Sale and Purchase Agreement, we make available to Users who request it the necessary personal information (such as name, e-mail address, telephone number and address) of Other Users.\nHowever Art cannot be held responsible for the accuracy of personal data disclosed by Users. Art and the User who receives the aforementioned personal data from Other Users are considered separate and independent data controllers, pursuant to the applicable laws and regulations regarding the protection of personal data, such as the EU Regulation no. 679 of 2016. In the event  Art and a User are jointly responsible for the processing of relevant personal data, and in the event  Art is sued, fined or otherwise suffers damages for any deficiency that can be attributed to the 'User in question, the User agrees to  Art for such damages.\nIn the event that the User receives the personal data of another subscriber, he must guarantee to process such information only to fulfill his obligations or to resolve any problems arising from the Sale and Purchase Agreement. The processing of such data by the User must take place in accordance with the applicable laws and regulations (on data protection).",
+      "title4": "Prices and commissions",
+      "text4": "Each transaction on the Platform is subject to Fees that Users are required to pay  Art.\nThe amount of the Fees for the sale of an NFT varies depending on whether it is the first sale of the token ('Primary Sale') or a subsequent sale in the secondary market ('Secondary Sale').\nIn particular Art collects an equal commission:\n• At 25% of the value of the first sale of the NFT;\n• At 3% of the value of each subsequent sale concluded on  Art Platform.\nAll Fees are collected and distributed upon transfer of the NFT via Smart Contracts.\n\nto. Primary sale\nThe Artist receives 75% of the total sale price for primary sales and  Art 25% of the total sale price as a Commission for the services offered, including the minting of NFTs.\n\nb Sale in the secondary market\nArtists receive a royalty equal to 10% of the hammer price, for all sales made in the secondary market. This royalty is paid by the User who owns the NFT (former Buyer of the same), who sells the token. Art, as part of the services offered, retains a royalty equal to 3% of the sale price.\n\nc. Automated collection and payment of commissions and royalties by Smart Contracts.\nThe User accepts and understands that all commissions, rights granted with the sale and royalties are transferred, processed or initiated directly through one or more Smart Contracts on the Polygon blockchain network.\nThe User consents to the automated collection and disbursement of royalties to Artists for sales on the NFT secondary market.",
+      "title5": "Account",
+      "text5": "Before you can use the Online Site, you must create  Art account ('Account'). Normally, anyone can subscribe  Art. If the User is under the age of 18, however, he must obtain the consent of his guardian or legal guardians.\nThe following are the rules relating to the use of the Account:\n• Obligation to Provide Accurate Information. During the creation of the Account, the User is required to provide complete and truthful information about himself or his company. It is not allowed to use false information or to pretend to be another person or company through your Account. You must always keep this information up to date.\n• Choosing a suitable username  Art requires its Users to choose a username that is not or cannot be considered offensive or vulgar, and that does not infringe the intellectual property rights of third parties or, otherwise, these Terms and Conditions.\n• Account Protection . The combination of username and password must always be kept secret. The User is solely responsible for any activity relating to his Account with the express release  Art from any and all liability including the subtraction, by any means, of the above combination Art has the right to assume that only the User is able to log in using his username and password.\n• Account Restrictions. To ensure that the Online Site is and remains reliable and secure,  Art reserves the right (i) to deny the User the ability to create an Account, (ii) to restrict its use and (iii) to deny its right to access the Account.\nIn case of violation of the Terms and Conditions, registration will no longer be allowed. In the event that the User's access or use of the Online Site has been restricted in accordance with the Terms and Conditions, it will not be permitted to sign up with another Account or access and use the Online Site through the Account of a other User.",
+      "title6": "Operation of the Platform",
+      "title7": "Disclaimer",
+      "title8": "Modification of the Terms of Use",
+      "title9": "Termination, suspension and other measures",
+      "text9": "Termination by the User. The User can remove his Account at any time.  Art has the right to refuse the removal of the Account if it is still necessary to fulfill certain obligations (such as payment or delivery obligations) towards  Art or other Users.\nTermination by  Art. Any breach of these Terms and Conditions may result in the immediate termination of an Account without any formal requirements being necessary.\nSuspension of the Service.  Art has the right to suspend the Service if it has sufficient reasons to believe that the User is not acting in accordance with these Terms and Conditions. For the avoidance of doubt, this means that  Art reserves the right to suspend the use of all Accounts used or managed by the User.\n Art reserves the right to take additional protective measures. In addition to the above,  Art reserves the right to take any further measures to protect the Online Site and Other Users from unlawful, fraudulent or otherwise inappropriate behavior.  ",
+      "title10": "Applicable law and competent court",
+      "text10": "These Terms and Conditions are governed by Italian law.\nAny dispute arising from the signing, validity, effectiveness, interpretation or execution of these Terms and Conditions and from relations derived from them or related to them, will be the exclusive competence of the Court of Genoa."
+    }
+  },
+
+  "corporate": {
+    "title": "Corporate Info",
+    "text": " Art Società Benefit S.r.l.\nSalita del Nespolo 4 -16036 Recco (GE)\nP.I./C.F. 02721760995\ninfo@art.com"
+  },
+
+  "contactus": {
+    "title": "Contact us",
+    "name": "Name",
+    "name_placeholder": "Insert your name",
+    "surname": "Surname",
+    "surname_placeholder": "Insert your surname",
+    "email": "Email",
+    "email_placeholder": "Insert your email",
+    "company_name": "Company name",
+    "company_name_placeholder": "Insert your Company name",
+    "leave_message": "Leave a message",
+    "leave_message_placeholder": "Write your message here",
+    "privacy_check": "I agreed to Privacy Policy",
+    "newsletter": "Subscribe to our newsletter"
+  },
+
+  "params": {
+    "email": "Email",
+    "email_placeholder": "Insert your email",
+    "password": "Password",
+    "password_placeholder": "Insert your password",
+    "nickname": "Nickname",
+    "nickname_placeholder": "Enter your nickname",
+    "location_placeholder": "Where are you from?",
+    "biography_placeholder": "Introduce yourself..."
+  },
+
+  "signIn": {
+    "title": "Welcome back!\nWe missed you.",
+    "no_account": "Don’t have an account? Join now.",
+    "forgot_password": "Forgot your password?",
+    "click_here": "Click here"
+  },
+
+  "signUp": {
+    "title": "Create your account on  Art ",
+    "already_have_account": "You already have an account? Login now.",
+    "terms_agreement": [
+      "By clicking ",
+      "Join",
+      " you indicate that you read and agree to our ",
+      "Terms",
+      " and ",
+      "Privacy Policy"
+    ],
+    "newsletter_check": "Subscribe to our newsletter",
+    "thanks_you": "Thank you,\nit is almost done...",
+    "check_email": "Check your email and confirm your registration to take\npart to  Art.",
+    "email_verification_ongoing": "Stiamo verificando il tuo account...",
+    "check_spam": "If you do not see the email in a few minutes,\ncheck your “junk mail” folder or “spam” folder."
+  },
+
+  "forgotPassword": {
+    "title": "No worries, we got you.",
+    "subtitle": "Just enter your email address and we’ll send you a link to reset your password",
+    "check_your_inbox": "Check your inbox!",
+    "check_inbox": "We just emailed you with the instructions to reset your password.",
+    "questions": "For any questions or problems please email us at",
+    "email": "help@art.com",
+    "reset_password": "Reset password"
+  },
+
+  "changePassword": {
+    "title": "Change password",
+    "subtitle": "In order to protect your account, make sure your password:\n\n• Is longer than 7 characters;\n• Does not match or significantly contain your username, e.g. do not use “username123”;",
+    "newPassword": "New Password",
+    "newPassword_placeholder": "Insert new password",
+    "reenterPassword": "Re-enter Password",
+    "reenterPassword_placeholder": "Re-insert new password",
+    "good_job": "Good job!\nYour password has been\nsuccessfully changed "
+  },
+
+  "onboarding": {
+    "title": "Thank you!\nWe’re glad to have you aboard",
+    "subtitle": "Your profile will be ready in a minute.\nOnly one step left: customization!",
+    "get_started": "Get Started",
+    "choose_role": "Which role fits you best?",
+    "select_one": "You can select more than one (up to two)",
+    "complete_profile": "Complete your profile",
+    "invalid_nickname": "Invalid nickname"
+  },
+
+  "profile": {
+    "nothing": "Looks like there’s nothing to show here yet!",
+    "browsing": "START BROWSING",
+    "take_a_look": "TAKE A LOOK AT WHAT OTHER ART LOVERS ARE DOING",
+    "edit_profile": "Edit profile",
+    "biography": "BIOGRAPHY",
+    "add_links": "ADD YOUR LINKS",
+    "wallet_address": "WALLET ADDRESS",
+    "curated_by": "Curated by",
+    "add_artwork": "Add artwork",
+    "decline": "Decline",
+    "approve": "Approve",
+    "artlovers": "TAKE A LOOK AT WHAT OTHER ART LOVERS ARE DOING",
+    "form": {
+      "title": "Title",
+      "edition": "Edition",
+      "price": "Price",
+      "description": "Description",
+      "input_placeholder": "Type here...",
+      "textarea_placeholder": "Write your description here...",
+      "cancel": "Cancel",
+      "mint": "Mint",
+      "minting": "Minting..."
+    }
+  },
+
+  "new_profile": {
+    "buttons": {
+      "save_btn": "Save",
+      "saving_btn": "Saving...",
+      "cancel_btn": "Cancel"
+    },
+    "forms": {
+      "question": "What's your question?",
+      "answer": "Type the answer",
+      "curator": "Who's the curator?"
+    },
+    "bio": {
+      "biography": "BIOGRAPHY",
+      "word_limit": "max. 5000 words",
+      "placeholder": "Write here your biography..."
+    },
+    "add_social": "ADD YOUR LINKS",
+    "tooltip": "Add question",
+    "error": {
+      "user_exists": "User ID already exists"
+    }
+  },
+
+  "aboutus": {
+    "ART": "Art",
+    "TECH_AND_DESIGN": "Tech & Design",
+    "BUSINESS_AND_OPERATIONS": "Business & Operations",
+    "MARKETING_AND_COMMUNICATION": "Marketing & Communication",
+    "ADVISORS": "Advisors"
+  },
+
+  "footer": {
+    "column1": {
+      "title": "Newsletter",
+      "subtitle": "Subscribe to our newsletter and always stay updated on our next exhibitions, events, and NFTs.",
+      "subscribe": "Subscribe",
+      "placeholder": "Insert your email..."
+    },
+    "column2": {
+      "title": " Art",
+      "about_us": "About us",
+      "contacts": "Contatti",
+      "faq": "FAQ"
+    },
+    "column3": {
+      "title": "Legal",
+      "corporate_info": "Corporate Info",
+      "community_guidelines": "Community guidelines",
+      "terms_of_service": "Terms of service",
+      "privacy_policy": "Privacy policy"
+    },
+    "column4": {
+      "title": "Language",
+      "english": "English",
+      "italian": "Italian"
+    }
+  },
+
+  "chips": {
+    "illustration": "Illustration",
+    "3d": "3D",
+    "ai": "A.I.",
+    "digital_fashion": "Digital Fashion",
+    "digital_collage": "Digital Collage",
+    "dystopic_future": "Dystopic Future",
+    "photography": "Photography",
+    "minimalism": "Minimalism",
+    "collage": "Collage",
+    "paintings": "Paintings",
+    "ARTIST": "Artist",
+    "ART_LOVER": "Art lover",
+    "COLLECTOR": "Collector"
+  },
+
+  "filters": {
+    "unselected": "No filters",
+    "new_artists": "New artists",
+    "most_loved": "Most loved",
+    "sec_mkt": "On Secondary Market",
+    "coming_soon": "Comong soon Artworks",
+    "photography": "Photography",
+    "illustrations": "Illustrazioni",
+    "3d": "3D",
+    "minimalism": "Minimalism",
+    "collage": "Collage",
+    "paintings": "Paintings",
+    "ai": "A.I.",
+    "digital_fashion": "Digital fashion",
+    "illustration": "Illustration",
+    "digital_collage": "Digital collage",
+    "dystopic_future": "Dystopic future",
+    "pending": "Pending"
+  },
+
+  "team": {
+    "art": "Art",
+    "business": "Business",
+    "communication": "Communication",
+    "tech": "Tech",
+    "design": "Design"
+  },
+
+  "tabs": {
+    "favourites": "FAVOURITES",
+    "interview": "INTERVIEW",
+    "artworks": "ARTWORKS",
+    "events": "EVENTS"
+  },
+
+  "artworks": {
+    "download_catalogue": "download exhibition catalogue",
+    "edition": "Edition"
+  },
+
+  "modals": {
+    "delete_info_title": "Are you sure you want to delete this information?",
+    "delete_info_subtitle": "If you click “Delete”, you will have to enter this information again for it to appear on your profile."
+  },
+
+  "kyc": {
+    "attention": "Attention!",
+    "message": "If you want to start selling and collecting artworks you have to verify your identity.",
+    "button": "Add your identity",
+    "firstName": "First name",
+    "firstName_placeholder": "Insert your first name",
+    "lastName": "Last name",
+    "lastName_placeholder": "Insert your last name",
+    "fiscalCode": "Fiscal code",
+    "fiscalCode_placeholder": "Insert your fiscal code",
+    "companyName": "Company name",
+    "companyName_placeholder": "Insert your company name",
+    "vatNumber": "Vat number",
+    "vatNumber_placeholder": "Insert your VAT number",
+    "address": "Address",
+    "address_placeholder": "Insert address here",
+    "cap": "CAP Code",
+    "cap_placeholder": "Insert your  CAP code",
+    "city": "City",
+    "city_placeholder": "Insert your city",
+    "state": "State",
+    "state_placeholder": "Insert your state",
+
+    "0": {
+      "title": "Verify your identity",
+      "subtitle": "PERSONAL INFORMATION"
+    },
+    "1": {
+      "title": "Verify your identity",
+      "subtitle": "PERSONAL INFORMATION"
+    },
+    "2": {
+      "title": "Verify your identity",
+      "subtitle": "UPLOAD YOUR DOCUMENT",
+      "documentType": "Document type",
+      "front": "Front",
+      "back": "Back",
+      "verify": "Verify"
+    },
+    "3": {
+      "title": "Thank you,\nwe are verifying your identity",
+      "subtitle": "You will receive an email as soon as your identity is veryfied. Couple of days and you will start selling and collecting artworks!"
+    }
+  },
+
+  "wallet": {
+    "attention": "Attention!",
+    "message": "If you want to start collecting artworks with EUR you have to create a  Art Wallet.",
+    "button": "Create wallet",
+
+    "connect_wallet": "Connect your wallet",
+    "connection": {
+      "0": {
+        "connect_wallet": "Connect wallet",
+        "connect_subtitle": "A blockchain wallet is mandatory to sell and collect NFTs",
+        "connect_btn_description": "A blockchain wallet is a digital wallet that allows users to store and manage their Bitcoin, Ether, and other cryptocurrencies.",
+        "question": "You don’t a wallet yet?",
+        "create": "We can create one for you"
+      },
+      "1": {},
+      "2": {
+        "title": "Thank you,\nyour wallet is connected",
+        "subtitle": "In order to sell and collect your NFTs, you need to\nverify also your identity."
+      }
+    },
+    "creation": {
+      "0": {
+        "title": "Wallet Creation",
+        "subtitle": "",
+        "text": "A blockchain wallet is needed in order to interact with the NFT marketplace. \n At the end of this wizard a new wallet is going to be associated with your account.",
+        "primaryCTA": "Continue",
+        "go_back": "Go back"
+      },
+      "1": {
+        "title": "Mnemonic Phrase",
+        "subtitle": "This phrase allows you to restore your wallet. Please copy all the words in a secure place and don't share them with anyone.",
+        "primaryCTA": "I saved it!"
+      },
+      "2": {
+        "title": "Backup",
+        "subtitle": "An encrypted backup of your wallet will be created. Insert your Reasoned Art password below to complete the wallet setup",
+        "primaryCTA": "Continue"
+      },
+      "3": {
+        "title": "Congratulations!",
+        "subtitle": "Your new wallet has been successfully created! You can now access to the marketplace and receive NFTs",
+        "primaryCTA": "Ok"
+      }
+    }
+  },
+
+  "roles": {
+    "artist": "Artist",
+    "artist_description": "Are you “someone who creates things with great skills and immagination”? Click here.",
+    "collector": "Collector",
+    "collector_description": "Select this option if you’re always daydreaming about buying new masterpieces for your art collection.",
+    "art_lover": "Art lover",
+    "art_lover_description": "Do you often find yourself googling “Art exhibitions near me”? This is definitely your category. Trust us.",
+    "curator": "Curator",
+    "curator_description": "This category is coming soon! Please, select “Art Lover” in the meanwhile. We appreciate it.",
+    "critic": "Critic",
+    "critic_description": "This category is coming soon! Please, select “Art Lover” in the meanwhile. We appreciate it.",
+    "coming_soon": "-coming soon"
+  },
+
+  "drop_file": "Drop files here or",
+  "browse": "Browse file",
+  "file_format": "(png, jpg, pdf)",
+
+  "passport": "Passport",
+  "identityCard": "Identity Card",
+  "polygon_scan": "POLYGON SCAN",
+
+  "make_an_offer": "Make an offer",
+  "meet_the_artist": "Meet the artist",
+  "registration": "Registration",
+  "find_out_more": "Find out more",
+  "discover_more": "Discover more",
+  "watch_live_stream": "Watch the live stream",
+  "watch_clip": "Watch a clip",
+  "place": "LUOGO",
+  "cancel": "Cancel",
+  "save": "Save",
+  "back": "Back",
+  "continue": "Continue",
+  "website": "Website",
+  "instagram": "Instagram",
+  "twitter": "Twitter",
+  "linkedin": "LinkedIn",
+  "facebook": "Facebook",
+  "behance": "Behance",
+  "filter_by": "Filter by",
+  "next_events": "NEXT EVENTS",
+  "past_events": "PAST EVENTS",
+  "current_offer": "CURRENT OFFER: ",
+  "price": "PRICE: ",
+  "pending": "Pending",
+  "sold_for": "SOLD FOR:",
+  "price": "PRICE: ",
+  "buy": "Buy",
+  "owner": "OWNER",
+  "artist": "ARTIST",
+  "readmore": "Read more",
+  "readless": "Read less",
+  "write_comment": "Write your comment",
+  "discover_network": "Discover network",
+  "the_events": "The events",
+  "words": "max. 1000 words",
+  "do_it_later": "Do it later",
+  "go_to_profile": "My Profile",
+  "go_home": "Go home",
+  "payment_methods": "Payment methods",
+  "verify_identity": "Verify your identity",
+  "delete": "Delete",
+  "current_auction": "CURRENT AUCTION",
+  "signout": "LOG OUT",
+
+  "euro_symbol": "€",
+
+  "you": "You",
+  "dot": "•",
+
+  "errors": {
+    "auth": {
+      "InternalErrorException": "Internal error",
+      "InvalidLambdaResponseException": "Something went wrong",
+      "InvalidParameterException": "Invalid parameter",
+      "InvalidSmsRoleAccessPolicyException": "SMS permission error",
+      "InvalidSmsRoleTrustRelationshipException": "SMS Error",
+      "InvalidUserPoolConfigurationException": "Invalid users pool",
+      "NotAuthorizedException": "Not authorized",
+      "PasswordResetRequiredException": "A password reset is required for this account",
+      "ResourceNotFoundException": "Resource not found",
+      "TooManyRequestsException": "Too many requests",
+      "UnexpectedLambdaException": "Unexpected error: lambda",
+      "UserLambdaValidationException": "Lambda validation exception",
+      "UserNotConfirmedException": "Account is not confirmed",
+      "UserNotFoundException": "The account does not exist",
+      "UsernameExistsException": "Email already registered",
+      "InvalidPasswordException": "Invalid password, it should be at least 8 characters and maximum 128 characters long and contain at least one number, one uppercase letter and one lowercase letter, cannot contain your email address."
+    },
+    "need_to_be_valid_email": "Need to be a valid email",
+    "field_needed": "Field needed",
+    "password_mismatch": "Password mismatch",
+    "invalid_username": "Invalid username"
+  },
+  "thanks_for_subscribing": "Thank you for subscribing to our newsletter. We will send you the latest news and updates.",
+  "wallets": {
+    "metamask": "Metamask",
+    "ledger": "Ledger",
+    "fortmatic": "Fortmatic",
+    "walletconnect": "Wallet Connect",
+    "coinbase": "Coinbase",
+    "trezor": "Trezor"
+  },
+  "paymentSuccess": {
+    "ACCEPTED": {
+      "title": "Almost done",
+      "message": "Your payment has been received. We are processing the purchase on the blockchain..."
+    },
+    "CREATED": {
+      "title": "Almost done",
+      "message": "Your payment has been received. We are processing the purchase on the blockchain..."
+    },
+    "SUCCESS": {
+      "title": "Transaction confirmed!",
+      "message": "Your transaction has been confirmed on the blockchain."
+    },
+    "FAILED": {
+      "title": "Transaction rejected!",
+      "message": "Your transaction has been rejected!"
+    }
+  },
+  "paymentCanceled": {
+    "title": "Payment canceled",
+    "message": "Something went wrong while processing your payment. Try again later."
+  },
+  "jsonrpc_errors": {
+    "-32603": "Insufficient funds",
+    "4001": "User denied the transaction"
+  }
+}

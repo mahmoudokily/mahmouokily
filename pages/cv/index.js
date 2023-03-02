@@ -202,7 +202,7 @@ const Cv = () => {
                 <div className={styles.sec_head}>Experiance</div>
               </div>
             </div>
-            <ul className={styles.item}>
+            {/* <ul className={styles.item}>
               <div className={styles.date}> 01/2022 - 07/2022</div>
               <li>
                 Senior Frontend Web Developer - Reasoned art (reasonedart.com)
@@ -222,7 +222,7 @@ const Cv = () => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
             <ul className={styles.item}>
               <div className={styles.date}> 2021 - now</div>
               <li>
@@ -234,15 +234,11 @@ const Cv = () => {
                     such as customer service and pre- and after-sales services
                     <span className={styles.red}>Technology used:</span>
                     <span>
-                      2021 - We have used JavaScript,React, Redux , S3 ,Material
-                      UI
-                    </span>
-                    <span style={{ display: "block", marginTop: 10 }}>
-                      2022 - We have rewritten the project using typescript &&
-                      We have built our own front-end design and programming
-                      library using : styled-components , styled-system , npm
-                      package , lernaJs ,npm packages, redux requests , redux
-                      saga , redux toolkit, git actions, storybook
+                      JavaScript,TypeScript , React, Redux , S3 ,Material UI,
+                      styled-components , styled-system , lernaJs ,npm packages,
+                      redux requests , redux toolkit, git actions, storybook,
+                      nodejs , some of aws services , Third-party
+                      Libraries,Docker,others
                     </span>
                   </li>
                 </ul>

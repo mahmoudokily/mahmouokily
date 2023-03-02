@@ -1,4 +1,4 @@
-.container{
+.container {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -7,56 +7,58 @@
   min-height: 100vh;
   text-align: left;
   color: aliceblue;
-  background: url("https://images.pexels.com/photos/127160/pexels-photo-127160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")  center center ;
-
+  background: url("https://images.pexels.com/photos/127160/pexels-photo-127160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    center center;
 }
 
-.p{
+.p {
   color: #737373;
 }
 
-
-.fixed{
+.fixed {
   display: flex;
   padding-top: 30px;
 
-
   flex-direction: column;
-
 }
-
-
-
-
-
-.name{
+.absloute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.absloute select {
+  width: 100px;
+  background-color: transparent;
+  padding: 5px;
+  color: aliceblue;
+  outline: none;
+}
+.name {
   font-size: 40px;
   text-align: left;
   font-weight: 700;
   color: white;
   text-shadow: 1px 1px 1px #000;
-
 }
-.job_title{
+.job_title {
   font-size: 20px;
   text-shadow: 1px 1px 1px #000;
-
 }
-.codeLang{
+.codeLang {
   padding: 10px;
   letter-spacing: 2px;
   font-size: 14px;
   text-shadow: 1px 1px 1px #000;
-
 }
-.home_btns{
+.home_btns {
   display: flex;
   text-align: left;
   padding: 20px;
   justify-content: left;
   align-items: flex-start;
 }
-.home_btns button{
+.home_btns button {
   text-shadow: 1px 1px 1px #000;
 
   margin: 10px;
@@ -66,51 +68,28 @@
   background-color: brown;
   color: aliceblue;
   border: 1px solid #eee;
-  opacity: .9;
+  opacity: 0.9;
   cursor: pointer;
   transition: all 300ms;
-
 }
-.home_btns button:hover{
+.home_btns button:hover {
   opacity: 1;
   font-size: 18px;
 }
 
-.htmlAnim{
+.htmlAnim {
   color: brown;
   font-size: 10px;
-
 }
 
-
-
-
-
-@media screen and (max-width: 920px){
-  .home_btns{
+@media screen and (max-width: 920px) {
+  .home_btns {
     flex-direction: column;
   }
-
-
 }
 
-@media screen and (max-width: 556px){
-  .container{
+@media screen and (max-width: 556px) {
+  .container {
     min-height: calc(100vh - 80px);
-
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
